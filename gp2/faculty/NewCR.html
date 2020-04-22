@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4 & Angular 8
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+
+<!-- begin::Head -->
+
+<head>
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Quality | Course Report</title>
+    <meta name="description" content="Latest updates and statistic charts">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--begin::Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+
+    <!--end::Fonts -->
+
+    <!--begin::Page Vendors Styles(used by this page) -->
+    <link href="../assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--end::Page Vendors Styles -->
+
+    <!--begin::Global Theme Styles(used by all pages) -->
+    <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--end::Global Theme Styles -->
+
+    <!--begin::Layout Skins(used by all pages) -->
+
+    <!--end::Layout Skins -->
+    <link rel="shortcut icon" href="../assets/media/logos/favicon.ico" />
+</head>
+
+<!-- end::Head -->
+
+<!-- begin::Body -->
+
+<body
+    class="kt-page--loading-enabled kt-page--loading kt-offcanvas-panel--right kt-header--fixed kt-header--minimize-topbar kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-page--loading">
+
+    <!-- begin::Page loader -->
+
+    <!-- end::Page Loader -->
+
+    <!-- begin:: Page -->
+
+    <!-- begin:: Header Mobile -->
+    <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+        <div class="kt-header-mobile__logo">
+            <a href="index.html">
+                <img alt="Logo" src="../assets/media/logos/logo-2-sm.png" />
+            </a>
+        </div>
+        <div class="kt-header-mobile__toolbar">
+            <button class="kt-header-mobile__toolbar-toggler" id="kt_header_mobile_toggler"><span></span></button>
+            <button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i
+                    class="flaticon-more-1"></i></button>
+        </div>
+    </div>
+
+    <!-- end:: Header Mobile -->
+    <div class="kt-grid kt-grid--hor kt-grid--root">
+        <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+
+                <!-- begin:: Header -->
+                <div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " data-ktheader-minimize="on">
+                    <div class="kt-header__top">
+                        <div class="kt-container ">
+
+                            <!-- begin:: Brand -->
+                            <div class=" kt-header__brand kt-grid__item" id="kt_header_brand">
+                                <div class="kt-header__brand-logo">
+                                    <a href="index.html">
+                                        <img alt="Logo" src="../assets/media/logos/logo-2.png"
+                                            class="kt-header__brand-logo-default" />
+                                        <img alt="Logo" src="../assets/media/logos/logo-2-sm.png"
+                                            class="kt-header__brand-logo-sticky" />
+                                    </a>
+                                </div>
+                                <div class="kt-header__brand-nav">
+
+                                </div>
+                            </div>
+
+                            <!-- end:: Brand -->
+
+                            <!-- begin:: Header Topbar -->
+                            <div class="kt-header__topbar">
+
+
+                                <!--begin: My cart -->
+                                <div class="kt-header__topbar-item dropdown">
+                                    <div class="kt-header__topbar-wrapper">
+                                        <span class="kt-header__topbar-icon">
+
+
+                                            <a href="settings.html">
+                                                <i class="flaticon2-gear"></i> </span></a>
+                                    </div>
+
+                                </div>
+
+                                <!--end: My cart-->
+
+                                <!--begin: Notifications -->
+                                <div class="kt-header__topbar-item dropdown" id="logout">
+                                    <div class="kt-header__topbar-wrapper" data-toggle="dropdown"
+                                        data-offset="10px,10px">
+                                        <span class="kt-header__topbar-icon">
+                                            <i class="flaticon2-up"></i>
+                                        </span>
+                                    </div>
+
+                                </div>
+
+                                <!--end: Notifications -->
+
+
+                                <!--begin: User bar -->
+                                <div class="kt-header__topbar-item kt-header__topbar-item--user">
+                                    <div class="kt-header__topbar-wrapper" data-toggle="dropdown"
+                                        data-offset="10px,10px" aria-expanded="false">
+                                        <span class="kt-header__topbar-welcome">Hi,</span>
+                                        <span class="kt-header__topbar-username">Sean</span>
+                                    </div>
+
+                                </div>
+
+                                <!--end: User bar -->
+                            </div>
+
+                            <!-- end:: Header Topbar -->
+                        </div>
+                    </div>
+                    <div class="kt-header__bottom">
+                        <div class="kt-container ">
+
+                            <!-- begin: Header Menu -->
+
+                            <div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
+                                <div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile ">
+                                    <ul class="kt-menu__nav ">
+                                        <li class="kt-menu__item   kt-menu__item--submenu "
+                                            data-ktmenu-submenu-toggle="click" aria-haspopup="true">
+                                            <a href="index.html" class="kt-menu__link"><span
+                                                    class="kt-menu__link-text">Dashboard</span><i
+                                                    class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+                                        </li>
+                                        <li class="kt-menu__item kt-menu__item--here kt-menu__item--open kt-menu__item--submenu kt-menu__item--rel"
+                                            data-ktmenu-submenu-toggle="hover" aria-haspopup="true"><a
+                                                href="courses.html" class="kt-menu__link"><span
+                                                    class="kt-menu__link-text">Courses</span><i
+                                                    class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                                            <div
+                                                class="kt-menu__submenu kt-menu__submenu--classic kt-menu__submenu--left">
+                                                <ul class="kt-menu__subnav" id="user-courses"></ul>
+
+                                            </div>
+                                        </li>
+                                        <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel"
+                                            data-ktmenu-submenu-toggle="click" aria-haspopup="true"><a
+                                                href="feedback-page.html" class="kt-menu__link"><span
+                                                    class="kt-menu__link-text">Feedback</span>
+                                                <span id="fb-num"></span><i
+                                                    class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <!-- end: Header Menu -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
+
+                    <!-- begin:: Content Head -->
+                    <div class="kt-subheader   kt-grid__item" id="kt_subheader">
+                        <div class="kt-container">
+                            <div class="kt-subheader__main">
+                                <h3 class="kt-subheader__title">Course Report</h3>
+
+                            </div>
+                            <div class="kt-subheader__toolbar">
+                                <div class="kt-subheader__wrapper">
+                                    <button type="submit" form="courseReport" class="btn kt-subheader__btn-primary">
+                                        Submit &nbsp;
+                                    </button>
+                                    <button type="button" form="courseReport" class="btn kt-subheader__btn-primary"
+                                        id="save">
+                                        Save &nbsp;
+                                    </button>
+                                    <a href="#" id="print" class="btn kt-subheader__btn-primary btn-icon">
+                                        <i class="flaticon2-fax"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end:: Content Head -->
+
+
+                <!-- begin:: Content -->
+                <div class="kt-container  kt-grid__item kt-grid__item--fluid">
+
+                    <div class="kt-portlet kt-portlet--mobile" id="report">
+                        <form id="courseReport" class=" kt-form">
+                            <div class="kt-portlet__body" style="
+    align-items: center;">
+
+                                <!--begin: Datatable -->
+                                <table class="mb-5 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <caption></caption>
+                                    <tbody>
+                                        <tr>
+                                            <th>Course Title:</th>
+                                            <td id="courseName"></td>
+
+                                        </tr>
+                                        <tr style="background-color: #EAF1DD;">
+                                            <th>Course Code:</th>
+                                            <td id="courseCode"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <th>Program:</th>
+                                            <td id="user_prog"></td>
+
+                                        </tr>
+                                        <tr style="background-color: #EAF1DD;">
+                                            <th>Department:</th>
+                                            <td id="user_dept"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <th>College:</th>
+                                            <td id="user_college"></td>
+
+                                        </tr>
+                                        <tr style="background-color: #EAF1DD;">
+                                            <th>Institution:</th>
+                                            <td id="user_insti"></td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table id="A."
+                                    class="mb-5 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">A. Course Identification</h4>
+                                    </div>
+                                    <thead style='background-color:#EAF1DD;'>
+                                        <tr>
+                                            <th rowspan="2">Intructor(s):</th>
+                                            <th rowspan="2">Location</th>
+                                            <th rowspan="2">Number of Sections</th>
+                                            <th colspan='2'>Number of Students </th>
+
+                                        </tr>
+
+                                        <tr style='background-color:#EAF1DD;'>
+                                            <th>Starting the<br> course</th>
+                                            <th>Completing the<br> course</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+
+                                            <td data-skin="brand" data-toggle="kt-tooltip" data-placement="left" title
+                                                data-original-title='Name of the instructor(s)'><textarea
+                                                    class="form-control" name="a-intructor"></textarea></td>
+                                            <td data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                                data-original-title='Location where the course is given'><textarea
+                                                    class="form-control" name="a-location"></textarea></td>
+                                            <td data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                                data-original-title='Number of section that the instructor has'>
+                                                <textarea class="form-control" name="a-NumOfSections"></textarea></td>
+                                            <td data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                                data-original-title='Number of students who enrolled in the course from the beginning of the semester '>
+                                                <textarea class="form-control" name="a-starting"></textarea></td>
+                                            <td data-skin="brand" data-toggle="kt-tooltip" data-placement="right" title
+                                                data-original-title='Number of students who passed the course successfully'>
+                                                <textarea class="form-control" name="a-completing"></textarea></td>
+
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                                <table id='B.'
+                                    class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+
+                                        <h4 style='color: rgb(240, 82, 82);'>B. Course Delivery</h4>
+                                        <h5>1. Course Contact Hours (per semester)</h5>
+                                    </div>
+
+                                    <thead style="background-color: #EAF1DD;">
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Activity</th>
+                                            <th data-skin="brand" data-toggle="kt-tooltip" data-placement="top" title
+                                                data-original-title='The planned hours at the beginning of the semester'>
+                                                Planned</th>
+                                            <th data-skin="brand" data-toggle="kt-tooltip" data-placement="top" title
+                                                data-original-title='The Actual hours taken during the course'>Actual
+                                            </th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>1</th>
+                                            <th>Lecture</th>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-lecture-planned">
+                                            </td>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-lecture-actual"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <th>2</th>
+                                            <th>Laboratory/Studio</th>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-lab-planned"></td>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-lab-actual"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <th>3</th>
+                                            <th>Tutorial</th>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-tutorial-planned">
+                                            </td>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-tutorial-actual">
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <th>4</th>
+                                            <th><input name="b-other" type="text" class="form-control"
+                                                    placeholder="Other (Specify)">
+                                            </th>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-other-planned"></td>
+                                            <td>
+                                                <input type="number" class="form-control" name="b1-other-actual"></td>
+
+                                        </tr>
+                                        <tr style="background-color:#EAF1DD">
+                                            <th></th>
+                                            <th>Total</th>
+                                            <td><input type="number" class="form-control" name="b1-total1"></td>
+                                            <td><input type="number" class="form-control" name="b1-total2"></td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h5>2. Topics not Covered</h5>
+                                    </div>
+                                    <thead style="background-color: rgb(219, 230, 199);">
+                                        <tr>
+                                            <th>Topics</th>
+                                            <th>Reason for Not Covering</th>
+                                            <th>Extent of their Impact on Learning Outcomes</th>
+                                            <th data-skin="brand" data-toggle="kt-tooltip" data-placement="right" title
+                                                data-original-title='Compensating actions already taken or suggested'>
+                                                Compensating Action*</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="group" style="background-color: #EAF1DD;">
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <textarea class="form-control" name="b2-Topics"></textarea></td>
+                                            <td>
+                                                <textarea class="form-control" name="b2-Reason"></textarea></td>
+                                            <td>
+                                                <textarea class="form-control" name="b2-Extent"></textarea></td>
+                                            <td><textarea class="form-control" name="b2-Action"></textarea></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+
+                                <table class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h5>3. Teaching Strategies </h5>
+                                    </div>
+                                    <thead style="background-color: rgb(219, 230, 199);">
+                                        <tr>
+                                            <th>Planned Teaching Strategies </th>
+
+                                            <th>Were They Implemented?</br>(Yes or no) </th>
+                                            <th>Difficulties Experienced (if any) in Implementation </th>
+                                            <th>Suggested Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+
+                                        <td>
+                                            <textarea class="form-control" name="b3-Planned"></textarea></td>
+                                        <td><textarea class="form-control" name="b3-Implemented"></textarea></td>
+                                        <td>
+                                            <textarea class="form-control" name="b3-Diff"></textarea></td>
+                                        <td>
+                                            <textarea class="form-control" name="b3-Action"></textarea></td>
+
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+
+                                    <div class="col-8" style="align-items: left;">
+                                        <h5>4. Activities/Assessment Methods</h5>
+                                    </div>
+                                    <thead style="background-color: rgb(219, 230, 199);">
+                                        <tr>
+                                            <th>Activities/Planned Assessment Methods </th>
+
+                                            <th>Were They Implemented? </br>(Yes or no)</th>
+                                            <th>Difficulties Experienced (if any) in Implementation </th>
+                                            <th>Suggested Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+
+                                        <tr>
+                                            <td><textarea class="form-control" name="b4-Activities"></textarea></td>
+                                            <td>
+                                                <textarea class="form-control" name="b4-Implemented"></textarea></td>
+                                            <td>
+                                                <textarea class="form-control" name="b4-Diff"></textarea></td>
+                                            <td><textarea class="form-control" name="b4-Action"></textarea></td>
+
+
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="mb-5 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h5>5. Verification of Credibility of Students’ Results</h5>
+                                    </div>
+
+                                    <thead>
+                                        <tr>
+                                            <!--<th style="border:0;"></th>-->
+                                            <th style="background-color: rgb(219, 230, 199);">
+                                                Method(s) of Verification</th>
+                                            <th style="background-color: rgb(219, 230, 199);">
+                                                Conclusions</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+                                            <td><textarea class="form-control" name="b5-Method" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="b5-Conclusions"
+                                                    rows="4"></textarea>
+                                            </td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+                                <div class="form-group col-8">
+                                    <h5>6. Recommendations
+                                    </h5>
+                                    <textarea data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                        data-original-title='Recommendations upon the conclusion' class="form-control"
+                                        rows='3' name="b5-Recommend"></textarea>
+                                </div>
+
+
+
+
+                                <table id="C."
+                                    class="mb-5 table  table-striped- table-bordered table-hover table-checkable"
+                                    id=" kt_table_1" style="width: 98%;">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">C. Student Results
+                                        </h4>
+                                        <h5>1. Distribution of Grades</h5>
+                                    </div>
+
+                                    <thead style="background-color: rgb(219, 230, 199);">
+                                        <tr>
+                                            <th rowspan='4'></th>
+                                            <th colspan='8'>Grades</th>
+
+
+
+                                            <th style="background-color: rgb(219, 230, 199);" colspan='12'>
+                                                Status Distributions</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style='background-color:rgb(219, 230, 199);'>
+                                            <th></th>
+                                            <th>A+</th>
+                                            <th>A</th>
+                                            <th>B+</th>
+                                            <th>B</th>
+                                            <th>C+</th>
+                                            <th>C</th>
+                                            <th>D+</th>
+                                            <th>D</th>
+                                            <th>F</th>
+
+                                            <th>Denied Entry</th>
+                                            <th>In Progress</th>
+                                            <th>Incomplete</th>
+                                            <th>Pass</th>
+                                            <th>Fails</th>
+                                            <th>Withdrawn</th>
+
+
+                                        </tr>
+
+                                        <tr>
+                                            <th style="background-color: #EAF1DD;">Number of Students
+                                            </th>
+                                            <!-- <td colspan='2'>A+</td> -->
+                                            <td><input type="number" class="form-control" name="c1-aa"></td>
+                                            <td><input type="number" class="form-control" name="c1-a"></td>
+                                            <td><input type="number" class="form-control" name="c1-bb"></td>
+                                            <td><input type="number" class="form-control" name="c1-b"></td>
+                                            <td><input type="number" class="form-control" name="c1-cc"></td>
+                                            <td><input type="number" class="form-control" name="c1-c"></td>
+                                            <td><input type="number" class="form-control" name="c1-dd"></td>
+                                            <td><input type="number" class="form-control" name="c1-d"></td>
+                                            <td><input type="number" class="form-control" name="c1-f"></td>
+
+                                            <td><input type="number" class="form-control" name="c1-Denied"></td>
+                                            <td><input type="number" class="form-control" name="c1-Progress"></td>
+                                            <td><input type="number" class="form-control" name="c1-Misaeng"></td>
+                                            <td><input type="number" class="form-control" name="c1-Pass"></td>
+                                            <td><input type="number" class="form-control" name="c1-Fails"></td>
+                                            <td><input type="number" class="form-control" name="c1-Withdrawn">
+                                            </td>
+
+
+                                        </tr>
+
+                                        <tr class="group">
+                                            <th style="background-color: #EAF1DD;">Percentage</th>
+                                            <td><input type="text" class="form-control" name="c2-aa"></td>
+                                            <td><input type="text" class="form-control" name="c2-a"></td>
+                                            <td><input type="text" class="form-control" name="c2-bb"></td>
+                                            <td><input type="text" class="form-control" name="c2-b"></td>
+                                            <td><input type="text" class="form-control" name="c2-cc"></td>
+                                            <td><input type="text" class="form-control" name="c2-c"></td>
+                                            <td><input type="text" class="form-control" name="c2-dd"></td>
+                                            <td><input type="text" class="form-control" name="c2-d"></td>
+                                            <td><input type="text" class="form-control" name="c2-f"></td>
+
+                                            <td><input type="text" class="form-control" name="c2-Denied"></td>
+                                            <td><input type="text" class="form-control" name="c2-Progress"></td>
+                                            <td><input type="text" class="form-control" name="c2-Misaeng"></td>
+                                            <td><input type="text" class="form-control" name="c2-Pass"></td>
+                                            <td><input type="text" class="form-control" name="c2-Fails"></td>
+                                            <td><input type="text" class="form-control" name="c2-Withdrawn">
+                                            </td>
+
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                                <div class="form-group col-8">
+                                    <h5>2. Comment on Student Results</h5>
+                                    <span>(including special factors (if any) affecting the results)
+                                    </span>
+                                    <textarea data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                        data-original-title='Whether the results were satisfying or not and why'
+                                        class="form-control" rows='3' name="c1-Comment"></textarea>
+                                </div>
+                                <div class="form-group col-8">
+                                    <h5>3. Recommendations</h5>
+
+                                    <textarea data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                        data-original-title='Recommend possible improvements on students performance '
+                                        class="form-control" rows='3' name="c1-Recommend"></textarea>
+                                </div>
+
+
+
+                                <table id="D."
+                                    class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">D. Course Learning Outcomes
+                                        </h4>
+                                        <h5>1. Course Learning Outcomes Assessment Results
+                                        </h5>
+                                    </div>
+
+                                    <thead style="background-color: rgb(219, 230, 199);">
+                                        <tr>
+
+                                            <th rowspan="2">Course Learning Outcomes (CLOs)</th>
+                                            <th rowspan='2' data-skin="brand" data-toggle="kt-tooltip"
+                                                data-placement="top" title
+                                                data-original-title='Program Learning Outcomes of the course'>PLOs Code
+                                            </th>
+                                            <th rowspan='2' data-skin="brand" data-toggle="kt-tooltip"
+                                                data-placement="top" title
+                                                data-original-title='The assessment methods as they written in the course specifications '>
+                                                Assessment Methods</th>
+                                            <th>
+                                                Assessment Results </th>
+                                            <th rowspan='2'>Comment on Assessment Results </th>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr style='background-color:rgb(219, 230, 199);'>
+                                            <th colspan="3"></th>
+                                            <th colspan='2' data-skin="brand" data-toggle="kt-tooltip"
+                                                data-placement="top" title
+                                                data-original-title='Target Mark or grade expected from students to acheive'>
+                                                Target Level/ Criterion for Success</th>
+                                            <th data-skin="brand" data-toggle="kt-tooltip" data-placement="top" title
+                                                data-original-title='The actual level what your students have actually acheive in the semester'>
+                                                Actual Level </th>
+                                            <th></th>
+
+                                        </tr>
+
+                                        <tr class="group" style="background-color: #EAF1DD;">
+                                            <th colspan="10">Knowledge</th>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td><textarea class="form-control" name="d-Knowledge1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="d-Knowledge2" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Knowledge3" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Knowledge4" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Knowledge5" rows="4"></textarea>
+                                            </td>
+                                            <td data-skin="brand" data-toggle="kt-tooltip" data-placement="top" title
+                                                data-original-title='Comments on your Target if acheived or not. If not, justify why'>
+                                                <textarea class="form-control" name="d-Knowledge6" rows="4"></textarea>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr class="group" style="background-color: #EAF1DD;">
+                                            <th colspan="9">Skills</th>
+
+                                        </tr>
+                                        <tr>
+                                            <td><textarea class="form-control" name="d-Skills1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="d-Skills2" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Skills3" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Skills4" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Skills5" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Skills6" rows="4"></textarea>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="group" style="background-color: #EAF1DD;">
+                                            <th colspan="9">Competence</th>
+
+                                        </tr>
+                                        <tr>
+                                            <td><textarea class="form-control" name="d-Competence1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="d-Competence2" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Competence3" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Competence4" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Competence5" rows="4"></textarea>
+                                            </td>
+                                            <td>
+                                                <textarea class="form-control" name="d-Competence6" rows="4"></textarea>
+                                            </td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+
+
+                                <div class="form-group col-8">
+                                    <h5>2. Recommendations
+                                    </h5>
+                                    <textarea data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                        data-original-title='Write a recommendations for improving your students level eg.assign more tasks '
+                                        class="form-control" rows='3' name="d-Recommend"></textarea>
+                                </div>
+
+
+
+
+                                <table id="E."
+                                    class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">E. Course Quality Evaluation
+                                        </h4>
+                                        <h5>1. Students Evaluation of the Quality of the Course</h5>
+                                    </div>
+
+
+                                    <thead style="background-color:#fff">
+                                        <tr>
+                                            <!-- <th></th> -->
+                                            <th>Date Of Survey:
+                                            </th>
+                                            <th>Number of<br> Participants:
+                                            </th>
+                                            <th>Percentage of<br> Participation:
+                                            </th>
+                                            <th>Evaluation Result:
+                                            </th>
+
+                                        </tr>
+                                        <tr>
+                                            <!-- <th></th> -->
+                                            <th><input type="date" class="form-control" name="e1-Date"></th>
+                                            <th><input type="number" class="form-control" name="e1-Num"></th>
+                                            <th><input type="number" class="form-control" name="e1-Perc"></th>
+                                            <th><input type="text" class="form-control" name="e1-Result"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="background-color:rgb(219, 230, 199);">
+                                            <th colspan='2'> Students Feedback</th>
+                                            <th colspan='2'> Course Coordinator/Instructor Comments/Response
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan='2'> <textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="left" title
+                                                    data-original-title='Strength feedback from student surveys'
+                                                    class="form-control" rows='3'
+                                                    name="e1-Student1">Strength:</textarea>
+                                            </th>
+                                            <th colspan='2'> <textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="right" title
+                                                    data-original-title='Course instructor response to the feedback'
+                                                    class="form-control" rows='3' name="e1-Course1"></textarea>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan='2'> <textarea class="form-control" rows='3'
+                                                    name="e1-Student2">Areas For Improvment:</textarea>
+                                            </th>
+                                            <th colspan='2'> <textarea class="form-control" rows='3'
+                                                    name="e1-Course2"></textarea>
+                                            </th>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th colspan='2'> <textarea class="form-control" rows='3'
+                                                    name="e1-Student3">Suggestions for Improvement:</textarea>
+                                            </th>
+                                            <th colspan='2'> <textarea class="form-control" rows='3'
+                                                    name="e1-Course3"></textarea>
+                                            </th>
+                                        </tr>
+
+
+
+
+                                    </tbody>
+                                </table>
+
+                                <table class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h5>2. Other Evaluations</h5>
+                                        <span>(e.g., Evaluations by faculty, program leaders, peer
+                                            reviewers, others)</span>
+                                    </div>
+
+                                    <thead style="background-color:#fff">
+                                        <tr>
+                                            <!-- <th></th> -->
+                                            <th>Evaluation Method:
+                                            </th>
+                                            <th>Date:</th>
+
+
+                                        </tr>
+                                        <tr>
+                                            <!-- <th></th> -->
+                                            <th><input type="text" class="form-control" name="e2-Method"></th>
+                                            <th><input type="date" class="form-control" name="e2-Date"></th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="background-color:rgb(219, 230, 199);">
+                                            <th> Evaluator(s) Comments</th>
+                                            <th> Course Coordinator/</br>Instructor Comments/Response
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th> <textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="left" title
+                                                    data-original-title='e.g., precise distribution of activites'
+                                                    class="form-control" rows='3'
+                                                    name="e2-Student1">Strength:</textarea>
+                                            </th>
+                                            <th> <textarea class="form-control" rows='3' name="e2-Course1"></textarea>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th> <textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="left" title
+                                                    data-original-title='e.g., classroom multi-media facilities'
+                                                    class="form-control" rows='3'
+                                                    name="e2-Student2">Areas For Improvment:</textarea>
+                                            </th>
+                                            <th> <textarea class="form-control" rows='3' name="e2-Course2"></textarea>
+                                            </th>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th> <textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="left" title
+                                                    data-original-title='Suggestions for improvment '
+                                                    class="form-control" rows='3'
+                                                    name="e2-Student3">Suggestions for Improvement:</textarea>
+                                            </th>
+                                            <th> <textarea class="form-control" rows='3' name="e2-Course3"></textarea>
+                                            </th>
+                                        </tr>
+
+
+
+
+                                    </tbody>
+
+                                </table>
+
+                                <div class="form-group col-8">
+                                    <h5>3. Recommendations
+                                    </h5>
+                                    <textarea data-skin="brand" data-toggle="kt-tooltip" data-placement="bottom" title
+                                        data-original-title='Recommendations of the evaluation for the course'
+                                        class="form-control" rows='3' name="e2-Recommend"></textarea>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+                                <table id="F."
+                                    class="mb-5 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">F. Difficulties and Challenges
+                                        </h4>
+
+                                    </div>
+                                    <tbody>
+
+                                        <tr rowspan='4' style='background-color:rgb(219, 230, 199);'>
+                                            <th>Difficulties and Challenges</th>
+                                            <th>Consequences </th>
+                                            <th>Actions Taken</th>
+                                            <!-- <th>Administrative Issues</th> -->
+                                        </tr>
+
+                                        <tr>
+                                            <th colspan='10' style='background-color: #EAF1DD;'>
+                                                Administrative Issues
+                                            </th>
+
+                                        </tr>
+
+
+                                        <tr>
+                                            <!-- <th>Essential References Materials</th> -->
+                                            <td><textarea class="form-control" name="f-Admin1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="f-Admin2" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="f-Admin3" rows="4"></textarea>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <th colspan='10' style='background-color: #EAF1DD;'>
+                                                Learning Resources
+                                            </th>
+
+                                        </tr>
+                                        <tr>
+                                            <!-- <th>Essential References Materials</th> -->
+                                            <td><textarea class="form-control" name="f-Learning1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="f-Learning2" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="f-Learning3" rows="4"></textarea>
+                                            </td>
+
+                                        </tr>
+
+
+                                        <tr>
+                                            <th colspan='10' style='background-color: #EAF1DD;'>
+                                                Facilities</th>
+
+                                        </tr>
+                                        <tr>
+                                            <!-- <th>Essential References Materials</th> -->
+                                            <td><textarea class="form-control" name="f-Facilities1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="f-Facilities2" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="f-Facilities3" rows="4"></textarea>
+                                            </td>
+
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+
+                                <table id="G."
+                                    class="mb-4 table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">G. Course Improvement Plan
+                                        </h4>
+                                        <h5>1. Course Improvement Actions </h5>
+                                    </div>
+
+                                    <thead style="background-color: #EAF1DD;">
+                                        <tr>
+                                            <th>Recommended Actions </th>
+
+                                            <th>Actions Taken </th>
+
+                                            <th data-skin="brand" data-toggle="kt-tooltip" data-placement="top" title
+                                                data-original-title='The follow up results of your actions taken'>
+                                                Results </th>
+
+                                            <th>Comments</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th colspan='10'>a. Previous course Report Recommendations</th>
+                                        </tr>
+                                        <tr>
+                                            <td><textarea class="form-control" name="g-a1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-a2" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-a3" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-a4" rows="4"></textarea>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr data-skin="brand" data-toggle="kt-tooltip" data-placement="left" title
+                                            data-original-title='The developmental measures taken during teaching the course and not
+                                            included in the development plan of it'>
+                                            <th colspan='10'>b. Other Improvement Actions </th>
+                                        </tr>
+                                        <tr>
+                                            <td><textarea class="form-control" name="g-b1" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-b2" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-b3" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-b4" rows="4"></textarea>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <table class=" table table-striped- table-bordered table-hover table-checkable"
+                                    id="kt_table_1">
+
+                                    <div class="col-8" style="align-items: left;">
+                                        <h4 style="color: rgb(240, 82, 82);">
+                                        </h4>
+                                        <h5>2. Action Plan for Next Semester/Year
+                                        </h5>
+                                    </div>
+
+                                    <!-- <thead style="background-color: #EAF1DD;"> -->
+                                    <tr>
+                                        <th colspan='2'>Recommendations</th>
+
+                                        <th>Actions </th>
+                                        <th>Responsibility For Implementation </th>
+                                        <th colspan='2'>Time</th>
+                                        <th colspan='2'>Needed Support </th>
+
+
+                                    </tr>
+                                    <!-- </thead> -->
+                                    <tbody>
+
+
+                                        <tr style='background-color: #EAF1DD;'>
+                                            <td colspan='4'></td>
+
+                                            <td class='text-center'>Start</th>
+                                            <td class='text-center'>End</th>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan='2'><textarea class="form-control" name="g-c1"
+                                                    rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-c2" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="top" title
+                                                    data-original-title='Who is responsible for implemetation to this recommendations'
+                                                    class="form-control" name="g-c3" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="top" title
+                                                    data-original-title='Start time for this recommendationm, e.g, Beginning of the semester'
+                                                    class="form-control" name="g-c4" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea data-skin="brand" data-toggle="kt-tooltip"
+                                                    data-placement="top" title
+                                                    data-original-title='End time for this recommendation, e.g, End of the semester'
+                                                    class="form-control" name="g-c5" rows="4"></textarea>
+                                            </td>
+                                            <td><textarea class="form-control" name="g-c6" rows="4"></textarea>
+                                            </td>
+
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- end:: Page -->
+
+    <!-- begin::Quick Panel -->
+
+    <!-- end::Quick Panel -->
+
+    <!-- begin::Scrolltop -->
+    <div id="kt_scrolltop" class="kt-scrolltop">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+
+    <!-- end::Scrolltop -->
+
+    <!-- begin::Sticky Toolbar -->
+
+    <ul class="kt-sticky-toolbar" style="margin-top: 30px;">
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Course Identification" data-placement="left">
+            <a href="#A.">A</a>
+        </li>
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Course Delivery" data-placement="left">
+            <a href="#B.">B</a>
+        </li>
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Student Results" data-placement="left">
+            <a href="#C.">C</a>
+        </li>
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Course Learning Outcomes" data-placement="left">
+            <a href="#D.">D</a>
+        </li>
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Course Quality Evaluation" data-placement="left">
+            <a href="#E.">E</a>
+        </li>
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Difficulties and Challenges" data-placement="left">
+            <a href="#F.">F</a>
+        </li>
+        <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Course Improvement Plan" data-placement="left">
+            <a href="#G.">G</a>
+        </li>
+        <!-- <li class="kt-sticky-toolbar__item kt-sticky-toolbar__item--warning" data-toggle="kt-tooltip"
+            title="Specification Approval Data" data-placement="left">
+            <a href="#H.">H</a>
+        </li> -->
+    </ul>
+    <!-- end::Sticky Toolbar -->
+
+    <!-- begin::Demo Panel -->
+
+
+    <!-- end::Demo Panel -->
+
+    <!--Begin:: Chat-->
+
+    <!--ENd:: Chat-->
+
+    <!-- begin::Global Config(global config for global JS sciprts) -->
+    <script>
+        var KTAppOptions = {
+            "colors": {
+                "state": {
+                    "brand": "#374afb",
+                    "light": "#ffffff",
+                    "dark": "#282a3c",
+                    "primary": "#5867dd",
+                    "success": "#34bfa3",
+                    "info": "#36a3f7",
+                    "warning": "#ffb822",
+                    "danger": "#fd3995"
+                },
+                "base": {
+                    "label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+                    "shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+                }
+            }
+        };
+    </script>
+
+    <!-- end::Global Config -->
+
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script src="../assets/plugins/global/plugins.bundle.js" type="text/javascript"></script>
+    <script src="../assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+    <!--end::Global Theme Bundle -->
+
+    <!--begin::Page Vendors(used by this page) -->
+    <script src="../assets/plugins/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
+    <script src="//maps.google.com/maps/api/js?key=AIzaSyBTGnKT7dt597vo9QgeQ7BFhvSRP4eiMSM"
+        type="text/javascript"></script>
+    <script src="../assets/plugins/custom/gmaps/gmaps.js" type="text/javascript"></script>
+
+    <!--end::Page Vendors -->
+
+    <!--begin::Page Scripts(used by this page) -->
+    <script src="../assets/js/pages/dashboard.js" type="text/javascript"></script>
+    <script src="../assets/js/pages/crud/datatables/basic/basic.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/pages/logout.js" type="text/javascript"></script>
+    <script src="../assets/js/pages/user-index.js" type="text/javascript"></script>
+    <script src="../assets/js/pages/fill-courseReport.js" type="text/javascript"></script>
+    <!--end::Page Scripts -->
+</body>
+
+<!-- end::Body -->
+
+</th>

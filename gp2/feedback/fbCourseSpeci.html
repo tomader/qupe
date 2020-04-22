@@ -1,0 +1,2939 @@
+<!DOCTYPE html>
+
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4 & Angular 8
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+
+<!-- begin::Head -->
+
+<head>
+	<base href="">
+	<meta charset="utf-8" />
+	<title>Quality | Course Specification</title>
+	<meta name="description" content="Latest updates and statistic charts">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--begin::Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+
+	<!--end::Fonts -->
+
+	<!--begin::Page Vendors Styles(used by this page) -->
+	<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+
+	<!--end::Page Vendors Styles -->
+
+	<!--begin::Global Theme Styles(used by all pages) -->
+	<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+	<!--end::Global Theme Styles -->
+
+	<!--begin::Layout Skins(used by all pages) -->
+
+	<!--end::Layout Skins -->
+	<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+</head>
+
+<!-- end::Head -->
+
+<!-- begin::Body -->
+
+<body
+	class="kt-page--loading-enabled kt-page--loading kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header--minimize-topbar kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-page--loading">
+
+	<!-- begin::Page loader -->
+
+	<!-- end::Page Loader -->
+
+	<!-- begin:: Page -->
+
+	<!-- begin:: Header Mobile -->
+	<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+		<div class="kt-header-mobile__logo">
+			<a href="index.html">
+				<img alt="Logo" src="assets/media/logos/logo-2-sm.png" />
+			</a>
+		</div>
+		<div class="kt-header-mobile__toolbar">
+			<button class="kt-header-mobile__toolbar-toggler" id="kt_header_mobile_toggler"><span></span></button>
+			<button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i
+					class="flaticon-more-1"></i></button>
+		</div>
+	</div>
+
+	<!-- end:: Header Mobile -->
+	<div class="kt-grid kt-grid--hor kt-grid--root">
+		<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+			<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+
+				<!-- begin:: Header -->
+				<div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " data-ktheader-minimize="on">
+					<div class="kt-header__top">
+						<div class="kt-container ">
+
+							<!-- begin:: Brand -->
+							<div class="kt-header__brand   kt-grid__item" id="kt_header_brand">
+								<div class="kt-header__brand-logo">
+									<a href="index.html">
+										<img alt="Logo" src="assets/media/logos/logo-2.png"
+											class="kt-header__brand-logo-default" />
+										<img alt="Logo" src="assets/media/logos/logo-2-sm.png"
+											class="kt-header__brand-logo-sticky" />
+									</a>
+								</div>
+								<div class="kt-header__brand-nav">
+
+								</div>
+							</div>
+
+							<!-- end:: Brand -->
+
+							<!-- begin:: Header Topbar -->
+							<div class="kt-header__topbar">
+
+
+								<!--begin: My cart -->
+								<div class="kt-header__topbar-item dropdown">
+									<div class="kt-header__topbar-wrapper">
+										<span class="kt-header__topbar-icon">
+
+
+											<a href="settings.html">
+												<i class="flaticon2-gear"></i> </span></a>
+									</div>
+
+								</div>
+
+								<!--end: My cart-->
+
+								<!--begin: Notifications -->
+								<div class="kt-header__topbar-item dropdown">
+									<div class="kt-header__topbar-wrapper" data-toggle="dropdown"
+										data-offset="10px,10px">
+										<span class="kt-header__topbar-icon">
+											<i class="flaticon2-up"></i>
+										</span>
+									</div>
+
+								</div>
+
+								<!--end: Notifications -->
+
+
+								<!--begin: Language bar -->
+								<div class="kt-header__topbar-item kt-header__topbar-item--langs">
+									<div class="kt-header__topbar-wrapper" data-toggle="dropdown"
+										data-offset="10px,10px">
+										<span class="kt-header__topbar-icon">
+											<img class="" src="assets/media/flags/226-united-states.svg" alt="" />
+										</span>
+									</div>
+									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim">
+										<ul class="kt-nav kt-margin-t-10 kt-margin-b-10">
+											<li class="kt-nav__item kt-nav__item--active">
+												<a href="#" class="kt-nav__link">
+													<span class="kt-nav__link-icon"><img
+															src="assets/media/flags/133-saudi-arabia.svg"
+															alt="" /></span>
+													<span class="kt-nav__link-text">Arabic</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<!--end: Language bar -->
+
+								<!--begin: User bar -->
+								<div class="kt-header__topbar-item kt-header__topbar-item--user">
+									<div class="kt-header__topbar-wrapper" data-toggle="dropdown"
+										data-offset="10px,10px" aria-expanded="false">
+										<span class="kt-header__topbar-welcome">Hi,</span>
+										<span class="kt-header__topbar-username">Sean</span>
+									</div>
+
+								</div>
+
+								<!--end: User bar -->
+							</div>
+
+							<!-- end:: Header Topbar -->
+						</div>
+					</div>
+					<div class="kt-header__bottom">
+						<div class="kt-container ">
+
+							<!-- begin: Header Menu -->
+							<button class="kt-header-menu-wrapper-close" id="kt_header_menu_mobile_close_btn"><i
+									class="la la-close"></i></button>
+							<div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
+								<div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile ">
+									<ul class="kt-menu__nav ">
+										<li class="kt-menu__item   kt-menu__item--submenu "
+											data-ktmenu-submenu-toggle="click" aria-haspopup="true">
+											<a href="index.html" class="kt-menu__link"><span
+													class="kt-menu__link-text">Dashboards</span><i
+													class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+										</li>
+										<li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel"
+											data-ktmenu-submenu-toggle="hover" aria-haspopup="true"><a
+												href="courses.html" class="kt-menu__link"><span
+													class="kt-menu__link-text">Courses</span><i
+													class="kt-menu__ver-arrow la la-angle-right"></i></a>
+											<div
+												class="kt-menu__submenu kt-menu__submenu--classic kt-menu__submenu--left">
+												<ul class="kt-menu__subnav">
+													<li class="kt-menu__item  kt-menu__item--active "
+														aria-haspopup="true"><a href="index.html"
+															class="kt-menu__link "><i
+																class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+																class="kt-menu__link-text">Assembly</span></a>
+													</li>
+													<li class="kt-menu__item " aria-haspopup="true"><a
+															href="dashboards/fluid.html" class="kt-menu__link "><i
+																class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+																class="kt-menu__link-text">Logic Design</span></a>
+													</li>
+													<li class="kt-menu__item " aria-haspopup="true"><a
+															href="dashboards/aside.html" class="kt-menu__link "><i
+																class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+																class="kt-menu__link-text">Cryptography</span></a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="kt-menu__item kt-menu__item--here kt-menu__item--open kt-menu__item--submenu kt-menu__item--rel"
+											data-ktmenu-submenu-toggle="click" aria-haspopup="true"><a
+												href="Feedback.html" class="kt-menu__link"><span
+													class="kt-menu__link-text">Feedback</span>
+												<span class="kt-badge kt-badge--danger">5</span><i
+													class="kt-menu__ver-arrow la la-angle-right"></i></a>
+
+										</li>
+									</ul>
+								</div>
+
+							</div>
+
+							<!-- end: Header Menu -->
+						</div>
+					</div>
+				</div>
+
+				<!-- end:: Header -->
+				<div class="kt-body kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-grid--stretch"
+					id="kt_body">
+					<div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
+
+						<!-- begin:: Content Head -->
+						<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+							<div class="kt-container ">
+								<div class="kt-subheader__main">
+									<h3 class="kt-subheader__title">Course Specification</h3>
+
+								</div>
+								<div class="kt-subheader__toolbar">
+									<div class="kt-subheader__wrapper">
+										<a href="#" class="btn kt-subheader__btn-primary">
+											Save &nbsp;
+										</a>
+										<a href="#" class="btn kt-subheader__btn-primary">
+											Confirm &nbsp;
+										</a>
+
+										<a href="#" class="btn kt-subheader__btn-primary btn-icon">
+											<i class="flaticon-download-1"></i>
+										</a>
+										<a href="#" class="btn kt-subheader__btn-primary btn-icon">
+											<i class="flaticon2-fax"></i>
+										</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- end:: Content Head -->
+
+						<!-- begin:: Content -->
+						<div class="kt-container  kt-grid__item kt-grid__item--fluid">
+
+							<div class="row">
+								<div class="col">
+									<div class="alert alert-solid-danger alert-bold fade show kt-margin-t-20 kt-margin-b-40"
+										role="alert">
+										<div class="alert-icon"><i class="fa fa-exclamation-triangle"></i></div>
+										<div class="alert-text">
+											<h4>Feedback:</h4>
+											In section B, it was not noted how the lecture was planned
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+
+								<div class="col-md-12">
+									<div class="kt-portlet">
+										<!--<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													
+												</h3>
+											</div> 
+										</div>-->
+										<div class=WordSection1>
+
+
+											<h1 style='line-height:115%'><a name="_Toc1047200"><span style='font-size:14.0pt;
+									line-height:115%;color:#C00000'>A. Course Identification</span></a><span
+													style='font-size:14.0pt;line-height:115%;color:#C00000'> </span>
+											</h1>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<tr>
+													<td width=35 rowspan=2 style='width:25.95pt;border-top:1.5pt;border-left:
+									  1.5pt;border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;
+									  border-style:solid;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															<b>No</b>
+														</p>
+													</td>
+													<td width=173 rowspan=2 style='width:129.45pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															<b>Instructor(s) </b></p>
+													</td>
+													<td width=104 rowspan=2 style='width:77.7pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															<b>Location</b></p>
+													</td>
+													<td width=104 rowspan=2 style='width:77.7pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															<b>Number
+																of
+																Sections</b></p>
+													</td>
+													<td width=207 colspan=2 style='width:155.45pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+									  rtl;unicode-bidi:embed'><b><span dir=LTR>Number of Students</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															Starting
+															the course</p>
+													</td>
+													<td width=104 style='width:77.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															Completing
+															the
+															course</p>
+													</td>
+												</tr>
+												<tr>
+													<td width=35 style='width:25.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell">
+													</td>
+													<td width=173 style='width:129.45pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=35 style='width:25.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=173 style='width:129.45pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=35 style='width:25.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=173 style='width:129.45pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=35 style='width:25.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=173 style='width:129.45pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.7pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=104 style='width:77.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+											</table>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<h1 style='line-height:115%'><a name="_Toc1047201"><span style='font-size:14.0pt;
+									line-height:115%;color:#C00000'>B. Course Delivery</span></a></h1>
+
+											<h2><a name="_Toc1047202">1. Course Contact Hours </a><span style='font-weight:
+									normal'>(per semester)</span></h2>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='height:19.0pt'>
+														<td width=43 style='width:32.2pt;border-top:1.5pt;border-left:1.5pt;
+									   border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+									   solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:19.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>No.</b></p>
+														</td>
+														<td width=332 style='width:249.05pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:19.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Activity</b></p>
+														</td>
+														<td width=123 style='width:92.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:19.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Planned</b></p>
+														</td>
+														<td width=123 style='width:92.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:19.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Actual</b></p>
+														</td>
+													</tr>
+												</thead>
+												<tr>
+													<td width=43 valign=top style='width:32.2pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>1</p>
+													</td>
+													<td width=332 style='width:249.05pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal><b>Lecture</b></p>
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=43 valign=top style='width:32.2pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>2</p>
+													</td>
+													<td width=332 style='width:249.05pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal><b>Laboratory/Studio</b></p>
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=43 valign=top style='width:32.2pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>3</p>
+													</td>
+													<td width=332 style='width:249.05pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal><b>Tutorial</b></p>
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=43 valign=top style='width:32.2pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>4</p>
+													</td>
+													<td width=332 style='width:249.05pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal><b>Others</b><span style='font-size:10.0pt'>
+																(Specify)</span></p>
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr>
+													<td width=375 colspan=2 valign=top style='width:281.25pt;border-top:none;
+									  border-left:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;
+									  border-right:solid windowtext 1.0pt;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='text-align:center'>
+															<b>Total</b></p>
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=123 valign=top style='width:92.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+											</table>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<h2><a name="_Toc1047203">2.� Topics not Covered</a></h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='height:13.8pt'>
+														<td width=172 style='width:128.7pt;border-top:1.5pt;border-left:1.5pt;
+									   border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+									   solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Topics</b></p>
+														</td>
+														<td width=130 style='width:97.8pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span style='font-size:11.0pt'>Reason</span></b></p>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span style='font-size:11.0pt'>for Not
+																		Covering</span></b></p>
+														</td>
+														<td width=130 style='width:97.8pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span style='font-size:10.0pt'>Extent
+																		of their Impact on Learning Outcomes</span></b>
+															</p>
+														</td>
+														<td width=189 style='width:141.95pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Compensating
+																	Action*</b></p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='height:13.8pt'>
+													<td width=172 valign=top style='width:128.7pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=189 valign=top style='width:141.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.8pt'>
+													<td width=172 valign=top style='width:128.7pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=189 valign=top style='width:141.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.8pt'>
+													<td width=172 valign=top style='width:128.7pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=189 valign=top style='width:141.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.8pt'>
+													<td width=172 valign=top style='width:128.7pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=130 valign=top style='width:97.8pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+													<td width=189 valign=top style='width:141.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.8pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNoSpacing><a name="_Toc1047204"><span
+														style='font-size:10.0pt'>*Compensating
+														actions already taken or suggested</span></a></p>
+
+											<p class=MsoNoSpacing><span lang=AR-EG dir=RTL>&nbsp;</span></p>
+
+											<h2><span dir=LTR></span><span dir=LTR></span>3. Teaching Strategies </h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='height:28.75pt'>
+														<td width=268 rowspan=2 style='width:200.95pt;border-top:1.5pt;border-left:
+									   1.5pt;border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;
+									   border-style:solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;
+									   height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:11.0pt;line-height:115%'>Planned
+																		Teaching Strategies </span></b></p>
+														</td>
+														<td width=99 colspan=2 valign=top style='width:74.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Were
+																		They</span></b></p>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Implemented?</span></b>
+															</p>
+														</td>
+														<td width=126 rowspan=2 style='width:94.3pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Difficulties
+																		Experienced </span></b><span
+																	style='font-size:8.0pt;line-height:115%'>(if any)<b>
+																	</b></span></p>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>in
+																		Implementation</span></b></p>
+														</td>
+														<td width=129 rowspan=2 style='width:96.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Suggested
+																		Action</span></b></p>
+														</td>
+													</tr>
+													<tr style='height:9.8pt'>
+														<td width=45 valign=top style='width:33.95pt;border-top:none;border-left:
+									   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:9.8pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Yes</span></b>
+															</p>
+														</td>
+														<td width=54 valign=top style='width:40.55pt;border-top:none;border-left:
+									   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:9.8pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>No</span></b>
+															</p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<p class=MsoNormal style='line-height:115%'>�</p>
+													</td>
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+
+											<h2><a name="_Toc526427381"></a><a name="_Toc1047205">4.
+													Activities/Assessment
+													Methods</a></h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='height:28.75pt'>
+														<td width=268 rowspan=2 style='width:200.95pt;border-top:1.5pt;border-left:
+									   1.5pt;border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;
+									   border-style:solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;
+									   height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:11.0pt;line-height:115%'>Activities/Planned
+																		Assessment
+																		Methods</span></b></p>
+														</td>
+														<td width=99 colspan=2 valign=top style='width:74.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Were
+																		They</span></b></p>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Implemented?</span></b>
+															</p>
+														</td>
+														<td width=126 rowspan=2 style='width:94.3pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Difficulties
+																		Experienced </span></b><span
+																	style='font-size:8.0pt;line-height:115%'>(if
+																	any)</span><b><span
+																		style='font-size:10.0pt;line-height:115%'> in
+																		Implementation </span></b></p>
+														</td>
+														<td width=129 rowspan=2 style='width:96.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:28.75pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Suggested
+																		Action</span></b></p>
+														</td>
+													</tr>
+													<tr style='height:9.8pt'>
+														<td width=45 valign=top style='width:33.95pt;border-top:none;border-left:
+									   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:9.8pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Yes</span></b>
+															</p>
+														</td>
+														<td width=54 valign=top style='width:40.55pt;border-top:none;border-left:
+									   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:9.8pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>No</span></b>
+															</p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=268 style='width:200.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=45 style='width:33.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=54 style='width:40.55pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 style='width:94.3pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													<td width=129 valign=top style='width:96.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal dir=RTL style='text-align:right;line-height:115%;direction:
+									rtl;unicode-bidi:embed'><span class=Heading2Char><span dir=LTR
+														style='font-size:13.0pt;line-height:115%'>&nbsp;</span></span>
+											</p>
+
+											<h2><a name="_Toc1047206">5. Verification of Credibility of Students�
+													Results</a></h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr>
+														<td width=410 valign=top style='width:307.25pt;border-top:1.5pt;border-left:
+									   1.5pt;border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;
+									   border-style:solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center dir=RTL style='text-align:center;line-height:
+									   115%;direction:rtl;unicode-bidi:embed'><b><span dir=LTR>Method(s) of
+																		Verification</span></b></p>
+														</td>
+														<td width=212 valign=top style='width:159.0pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center dir=RTL style='text-align:center;line-height:
+									   115%;direction:rtl;unicode-bidi:embed'><b><span dir=LTR>Conclusions</span></b></p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='height:17.0pt'>
+													<td width=410 valign=top style='width:307.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=212 valign=top style='width:159.0pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=410 valign=top style='width:307.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=212 valign=top style='width:159.0pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=410 valign=top style='width:307.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=212 valign=top style='width:159.0pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+												<tr style='height:17.0pt'>
+													<td width=410 valign=top style='width:307.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+													<td width=212 valign=top style='width:159.0pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt'>
+														<input type="text" class="txt-cell" />
+													</td>
+												</tr>
+											</table>
+
+											<h2>&nbsp;</h2>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=635
+												style='width:476.25pt;border-collapse:collapse;border:none'>
+												<tr style='height:1.85pt'>
+													<td width=635 valign=top style='width:476.25pt;border:solid windowtext 1.5pt;
+									  border-bottom:none;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<p class=MsoNormal style='line-height:115%'><a
+																name="_Toc1047207"><span class=Heading2Char><span
+																		style='font-size:13.0pt;line-height:115%'>6.
+																		Recommendations</span></span></a></p>
+													</td>
+												</tr>
+												<tr style='height:1.85pt'>
+													<td width=635 valign=top style='width:476.25pt;border:solid windowtext 1.5pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal><span style='font-size:10.0pt'>&nbsp;</span></p>
+
+											<h1 style='line-height:115%'><a name="_Toc1047208"><span style='font-size:14.0pt;
+									line-height:115%;color:#C00000'>C. Student Results</span></a></h1>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<h2><a name="_Toc1047209">1. Distribution of Grades</a></h2>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr>
+														<td width=84 rowspan=2 style='width:62.75pt;border-top:1.5pt;border-left:
+									   1.5pt;border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;
+									   border-style:solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><span
+																	style='font-size:11.0pt;line-height:115%'>&nbsp;</span>
+															</p>
+														</td>
+														<td width=320 colspan=9 style='width:239.7pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b>Grades</b>
+															</p>
+														</td>
+														<td width=218 colspan=6 style='width:163.8pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b>Status
+																	Distributions</b></p>
+														</td>
+													</tr>
+													<tr style='page-break-inside:avoid;height:34.0pt'>
+														<td width=36 style='width:26.75pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>A+</p>
+														</td>
+														<td width=36 style='width:26.75pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>A</p>
+														</td>
+														<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>B+</p>
+														</td>
+														<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>B</p>
+														</td>
+														<td width=36 style='width:26.95pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>C+</p>
+														</td>
+														<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>C</p>
+														</td>
+														<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>D+</p>
+														</td>
+														<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>D</p>
+														</td>
+														<td width=33 style='width:25.0pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>F</p>
+														</td>
+														<td width=36 style='width:27.2pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:7.0pt'>Denied
+																	Entry</span></p>
+														</td>
+														<td width=36 style='width:27.3pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:7.0pt'>In
+																	Progress</span></p>
+														</td>
+														<td width=36 style='width:27.3pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:7.0pt'>Incomplete</span></p>
+														</td>
+														<td width=36 style='width:27.3pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:7.0pt'>Pass</span>
+															</p>
+														</td>
+														<td width=36 style='width:27.35pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:7.0pt'>Fail</span>
+															</p>
+														</td>
+														<td width=36 style='width:27.35pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:34.0pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:7.0pt'>Withdrawn</span></p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='height:29.1pt'>
+													<td width=84 style='width:62.75pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:11.0pt;line-height:115%'>Number
+																	of</span></b></p>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:11.0pt;line-height:115%'>Students</span></b>
+														</p>
+													</td>
+													<td width=36 style='width:26.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=33 style='width:25.0pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.2pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.3pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.3pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.3pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:29.1pt'>
+													<td width=84 style='width:62.75pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:11.0pt;line-height:115%'>Percentage</span></b>
+														</p>
+													</td>
+													<td width=36 style='width:26.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.75pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.95pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:26.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=33 style='width:25.0pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.2pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.3pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.3pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.3pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+													<td width=36 style='width:27.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:29.1pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<tr style='height:1.85pt'>
+													<td width=622 style='width:466.25pt;border:solid windowtext 1.5pt;border-bottom:
+									  none;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<h2><a name="_Toc1047210">2. Comment on Student Results</a></h2>
+														<p class=MsoNormal><span style='font-size:10.0pt'>(including
+																special
+																factors
+																(if any) affecting the results)</span></p>
+													</td>
+												</tr>
+												<tr style='height:1.85pt'>
+													<td width=622 valign=top style='width:466.25pt;border-top:none;border-left:
+									  solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;border-right:
+									  solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:1.85pt'>
+													<td width=622 valign=top style='width:466.25pt;border-top:none;border-left:
+									  solid windowtext 1.5pt;border-bottom:none;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<h2><a name="_Toc1047211">3.Recommendations</a> </h2>
+													</td>
+												</tr>
+												<tr style='height:1.85pt'>
+													<td width=622 valign=top style='width:466.25pt;border:solid windowtext 1.5pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<h1 style='line-height:115%'><a name="_Toc1047212"><span style='font-size:14.0pt;
+									line-height:115%;color:#C00000'>D. Course Learning Outcomes</span></a></h1>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<h2><a name="_Toc1047213">1. Course Learning Outcomes Assessment Results</a>
+											</h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='height:11.35pt'>
+														<td width=225 colspan=2 rowspan=2 style='width:168.45pt;border-top:1.5pt;
+									   border-left:1.5pt;border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;
+									   border-style:solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;
+									   height:11.35pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Course
+																		learning Outcomes</span></b></p>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>(CLOs)</span></b>
+															</p>
+														</td>
+														<td width=53 rowspan=2 style='width:39.9pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:11.35pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>PLOs
+																		Code</span></b></p>
+														</td>
+														<td width=71 rowspan=2 style='width:53.6pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:11.35pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:8.0pt;line-height:115%'>Assessment
+																		Methods</span></b></p>
+														</td>
+														<td width=120 colspan=2 style='width:89.8pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:11.35pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Assessment
+																		Results </span></b></p>
+														</td>
+														<td width=153 rowspan=2 style='width:114.5pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:11.35pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Comment
+																		on</span></b></p>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b><span
+																		style='font-size:10.0pt;line-height:115%'>Assessment
+																		Results</span></b></p>
+														</td>
+													</tr>
+													<tr style='height:13.3pt'>
+														<td width=60 style='width:44.85pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:13.3pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span style='font-size:7.0pt'>Target
+																		Level/ Criterion for Success</span></b></p>
+														</td>
+														<td width=60 style='width:44.95pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:13.3pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span style='font-size:7.0pt'>Actual
+																		Level </span></b></p>
+														</td>
+													</tr>
+												</thead>
+												<tr>
+													<td width=28 style='width:20.95pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:8.0pt;line-height:115%'>1</span></b>
+														</p>
+													</td>
+													<td width=594 colspan=6 valign=top style='width:445.3pt;border-top:none;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b>Knowledge </b>:
+														</p>
+													</td>
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:8.0pt;line-height:115%'>1.1</span></b>
+														</p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:8.0pt;line-height:115%'>1.2</span></b>
+														</p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:8.0pt;line-height:115%'>1.3</span></b>
+														</p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center
+															style='text-align:center;line-height:115%'><b><span
+																	style='font-size:8.0pt;line-height:115%'>1...</span></b>
+														</p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>2</span></b></p>
+													</td>
+													<td width=594 colspan=6 valign=top style='width:445.3pt;border-top:none;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b>Skills:</b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>2.1</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>2.2</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>2.3</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>2...</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>3</span></b></p>
+													</td>
+													<td width=594 colspan=6 valign=top style='width:445.3pt;border-top:none;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b>Competence :</b>
+														</p>
+													</td>
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>3.1</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>3.2</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>3.3</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=28 style='width:20.95pt;border:solid windowtext 1.0pt;border-top:
+									  none;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span style='font-size:8.0pt;
+									  line-height:115%'>3...</span></b></p>
+													</td>
+													<td width=197 valign=top style='width:147.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=53 valign=top style='width:39.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=71 valign=top style='width:53.6pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.85pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=60 valign=top style='width:44.95pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=153 valign=top style='width:114.5pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+												style='width:100.0%;border-collapse:collapse;border:none'>
+												<tr style='height:1.85pt'>
+													<td width="100%" valign=top style='width:100.0%;border-top:solid windowtext 1.0pt;
+									  border-left:solid windowtext 1.5pt;border-bottom:none;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<h2><a name="_Toc1047214">2. Recommendations</a> </h2>
+													</td>
+												</tr>
+												<tr style='height:1.85pt'>
+													<td width="100%" valign=top style='width:100.0%;border:solid windowtext 1.5pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal><b><span
+														style='font-size:9.0pt;color:#C00000'>&nbsp;</span></b></p>
+
+											<h1 style='line-height:115%'><a name="_Toc1047215"><span style='font-size:14.0pt;
+									line-height:115%;color:#C00000'>E.� Course Quality Evaluation</span></a></h1>
+
+											<p class=MsoNormal><span style='font-size:9.0pt'>&nbsp;</span></p>
+
+											<h2><a name="_Toc1047216"></a><a name="_Toc523726798">1. Students Evaluation
+													of
+													the Quality of the Course</a></h2>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<tr style='height:19.7pt'>
+													<td width=155 style='width:116.6pt;border-top:1.5pt;border-left:1.5pt;
+									  border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+									  solid;padding:0cm 5.4pt 0cm 5.4pt;height:19.7pt'>
+														<p class=MsoNormal><b><span style='font-size:11.0pt'>Date of
+																	Survey:</span></b></p>
+													</td>
+													<td width=155 style='width:116.55pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:19.7pt'>
+														<p class=MsoListParagraph style='margin-left:0cm'><b><span
+																	style='font-size:
+									  11.0pt'>Number of </span></b></p>
+														<p class=MsoNormal><b><span
+																	style='font-size:11.0pt'>Participants:</span></b>
+														</p>
+													</td>
+													<td width=155 colspan=2 style='width:116.55pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:19.7pt'>
+														<p class=MsoNormal><b><span style='font-size:11.0pt'>Percentage
+																	of
+																	Participation:</span></b></p>
+													</td>
+													<td width=155 style='width:116.55pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:19.7pt'>
+														<p class=MsoNormal style='margin-top:0cm;margin-right:2.15pt;margin-bottom:
+									  0cm;margin-left:8.8pt;margin-bottom:.0001pt;text-indent:-8.8pt'><b><span style='font-size:11.0pt'>Evaluation
+																	Result:</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=361 colspan=3 style='width:270.55pt;border-top:none;border-left:
+									  solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;border-right:
+									  solid windowtext 1.0pt;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:8.8pt;margin-bottom:.0001pt;text-align:center;
+									  text-indent:-8.8pt'><b><span style='font-size:11.0pt'>Students Feedback</span></b></p>
+													</td>
+													<td width=261 colspan=2 style='width:195.7pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:8.8pt;margin-bottom:.0001pt;text-align:center;
+									  text-indent:-8.8pt'><b><span style='font-size:11.0pt'>Course Coordinator/Instructor
+																	Comments/Response</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=361 colspan=3 style='width:270.55pt;border-top:none;border-left:
+									  solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;border-right:
+									  solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span
+																	style='font-size:11.0pt'>Strengths:</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+													</td>
+													<td width=261 colspan=2 valign=top style='width:195.7pt;border-top:none;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+														<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=361 colspan=3 style='width:270.55pt;border-top:none;border-left:
+									  solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;border-right:
+									  solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt'>Areas for
+																	improvement:</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'>�</p>
+													</td>
+													<td width=261 colspan=2 valign=top style='width:195.7pt;border-top:none;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+														<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=361 colspan=3 style='width:270.55pt;border-top:none;border-left:
+									  solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;border-right:
+									  solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt'>Suggestions for
+																	Improvement:</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>� <input
+																	type="text" class="txt-cell" /></span><span
+																dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span>�</p>
+													</td>
+													<td width=261 colspan=2 valign=top style='width:195.7pt;border-top:none;
+									  border-left:none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+														<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+													</td>
+												</tr>
+												<tr height=0>
+													<td width=155 style='border:none'></td>
+													<td width=155 style='border:none'></td>
+													<td width=50 style='border:none'></td>
+													<td width=106 style='border:none'></td>
+													<td width=155 style='border:none'></td>
+												</tr>
+											</table>
+
+											<p class=MsoNormal><a name="_Toc523726799"><b><span
+															style='font-size:13.0pt'>&nbsp;</span></b></a></p>
+
+											<h2><a name="_Toc1047217">2. Other Evaluations</a> </h2>
+
+											<p class=MsoNormal style='text-align:justify;text-justify:kashida;text-kashida:
+									0%'><a name="_Toc523726800"><span style='font-size:10.0pt'>(e.g., Evaluations
+														by faculty, program leaders, peer reviewers, </span></a><span
+													style='font-size:
+									10.0pt'>others)</span></p>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<tr style='height:19.6pt'>
+													<td width=311 style='width:233.1pt;border-top:1.5pt;border-left:1.5pt;
+									  border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+									  solid;padding:0cm 5.4pt 0cm 5.4pt;height:19.6pt'>
+														<p class=MsoNormal><b><span style='font-size:11.0pt'>Evaluation
+																	method :</span></b></p>
+													</td>
+													<td width=311 style='width:233.15pt;border-top:solid windowtext 1.5pt;
+									  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:19.6pt'>
+														<p class=MsoListParagraph style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:10.0pt'>Date:</span></b>
+														</p>
+													</td>
+												</tr>
+												<tr>
+													<td width=311 style='width:233.1pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:8.8pt;margin-bottom:.0001pt;text-align:center;
+									  text-indent:-8.8pt'><b><span style='font-size:11.0pt'>Evaluator(s) Comments</span></b></p>
+													</td>
+													<td width=311 style='width:233.15pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:8.8pt;margin-bottom:.0001pt;text-align:center;
+									  text-indent:-8.8pt'><b><span style='font-size:11.0pt'>Course Coordinator/Instructor
+																	Comments/Response</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=311 style='width:233.1pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span
+																	style='font-size:11.0pt'>Strengths</span></b><span
+																dir=RTL></span><b><span lang=AR-EG dir=RTL
+																	style='font-size:11.0pt'><span
+																		dir=RTL></span>:</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span><span
+																dir=RTL></span><b><span dir=RTL
+																	style='font-size:11.0pt'><span
+																		dir=RTL></span>�</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span><span
+																dir=RTL></span><b><span dir=RTL
+																	style='font-size:11.0pt'><span
+																		dir=RTL></span>�</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt'>&nbsp;</span></b>
+														</p>
+													</td>
+													<td width=311 valign=top style='width:233.15pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+														<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=311 style='width:233.1pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt'>Areas for
+																	improvement:</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt'>�</span></b></p>
+													</td>
+													<td width=311 valign=top style='width:233.15pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+														<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=311 style='width:233.1pt;border-top:none;border-left:solid windowtext 1.5pt;
+									  border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt'>Suggestions for
+																	Improvement:</span></b></p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-indent:-7.1pt'><span
+																style='font-size:11.0pt;font-family:Symbol'>�<span
+																	style='font:7.0pt "Times New Roman"'>
+																</span></span><span dir=LTR></span>�</p>
+														<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'>�</p>
+													</td>
+													<td width=311 valign=top style='width:233.15pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.5pt;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+														<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:2.15pt;
+									  margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+													</td>
+												</tr>
+											</table>
+
+											<p class=MsoNormal><span style='font-size:10.0pt'>* Add separate table for
+													each
+													evaluation</span></p>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+												style='width:100.0%;border-collapse:collapse;border:none'>
+												<tr style='height:1.85pt'>
+													<td width="100%" valign=top style='width:100.0%;border-top:solid windowtext 1.0pt;
+									  border-left:solid windowtext 1.5pt;border-bottom:none;border-right:solid windowtext 1.5pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<h2><a name="_Toc1047218">3.Recommendations :</a></h2>
+													</td>
+												</tr>
+												<tr style='height:1.85pt'>
+													<td width="100%" valign=top style='width:100.0%;border:solid windowtext 1.5pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:1.85pt'>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<p class=MsoNormal style='line-height:115%'>&nbsp;</p>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal><s><span style='text-decoration:none'>&nbsp;</span></s>
+											</p>
+
+											<h1><a name="_Toc1047219"></a><a name="_Toc523726803"><span style='font-size:
+									14.0pt;color:#C00000'>F. </span></a><span style='font-size:14.0pt;color:#C00000'>Difficulties
+													and Challenges</span></h1>
+
+											<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr>
+														<td width=207 style='width:155.45pt;border-top:1.5pt;border-left:1.5pt;
+									   border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+									   solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>
+																<b>Difficulties
+																	and Challenges</b></p>
+														</td>
+														<td width=207 style='width:155.35pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'>
+																<b>Consequences
+																</b></p>
+														</td>
+														<td width=207 style='width:155.45pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt'>
+															<p class=MsoNormal align=center
+																style='text-align:center;line-height:115%'><b>Actions
+																	Taken</b></p>
+														</td>
+													</tr>
+												</thead>
+												<tr>
+													<td width=622 colspan=3 valign=top style='width:466.25pt;border-top:none;
+									  border-left:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;
+									  border-right:solid windowtext 1.5pt;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span
+																	style='color:black'>Administrative
+																	Issues</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=622 colspan=3 valign=top style='width:466.25pt;border-top:none;
+									  border-left:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;
+									  border-right:solid windowtext 1.5pt;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span
+																	style='color:black'>Learning
+																	Resources</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=622 colspan=3 valign=top style='width:466.25pt;border-top:none;
+									  border-left:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;
+									  border-right:solid windowtext 1.5pt;background:#EAF1DD;padding:0cm 5.4pt 0cm 5.4pt'>
+														<p class=MsoNormal style='line-height:115%'><b><span
+																	style='color:black'>Facilities</span></b></p>
+													</td>
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr>
+													<td width=207 valign=top style='width:155.45pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.35pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=207 valign=top style='width:155.45pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<h1><span style='font-size:14.0pt;color:#C00000'>�</span></h1>
+
+
+
+											<h1><a name="_Toc1047220"><span style='font-size:14.0pt;color:#C00000'>G.
+														Course
+														Improvement Plan</span></a></h1>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+											<h2><a name="_Toc1047221">1. Course Improvement Actions</a> </h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='height:27.45pt'>
+														<td width=150 style='width:112.25pt;border-top:1.5pt;border-left:1.5pt;
+									   border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+									   solid;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:27.45pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Recommended
+																	Actions</b></p>
+														</td>
+														<td width=126 style='width:94.75pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:27.45pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Actions Taken</b></p>
+														</td>
+														<td width=196 style='width:147.05pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:27.45pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Results</b></p>
+														</td>
+														<td width=150 style='width:112.2pt;border-top:solid windowtext 1.5pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.5pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:27.45pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Comments</b></p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='height:15.95pt'>
+													<td width=622 colspan=4 valign=top style='width:466.25pt;border-top:none;
+									  border-left:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;
+									  border-right:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.95pt'>
+														<p class=MsoNormal style='line-height:115%'><b>a. Previous
+																course
+																Report
+																Recommendations</b></p>
+													</td>
+												</tr>
+												<tr style='height:15.95pt'>
+													<td width=150 valign=top style='width:112.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.95pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 valign=top style='width:94.75pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:15.95pt'>
+														<input type="text" class="txt-cell" />
+													<td width=196 valign=top style='width:147.05pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:15.95pt'>
+														<input type="text" class="txt-cell" />
+													<td width=150 valign=top style='width:112.2pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:15.95pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:14.05pt'>
+													<td width=150 valign=top style='width:112.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:14.05pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 valign=top style='width:94.75pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:14.05pt'>
+														<input type="text" class="txt-cell" />
+													<td width=196 valign=top style='width:147.05pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:14.05pt'>
+														<input type="text" class="txt-cell" />
+													<td width=150 valign=top style='width:112.2pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:14.05pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.55pt'>
+													<td width=150 valign=top style='width:112.25pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=126 valign=top style='width:94.75pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=196 valign=top style='width:147.05pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=150 valign=top style='width:112.2pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.55pt'>
+													<td width=622 colspan=4 valign=top style='width:466.25pt;border-top:none;
+									  border-left:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;
+									  border-right:solid windowtext 1.5pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<p class=MsoNormal style='line-height:115%'><b>b. Other
+																Improvement
+																Actions* </b></p>
+													</td>
+												</tr>
+												<tr style='height:13.55pt'>
+													<td width=276 colspan=2 valign=top style='width:207.0pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=196 valign=top style='width:147.05pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=150 valign=top style='width:112.2pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.55pt'>
+													<td width=276 colspan=2 valign=top style='width:207.0pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=196 valign=top style='width:147.05pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=150 valign=top style='width:112.2pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='height:13.55pt'>
+													<td width=276 colspan=2 valign=top style='width:207.0pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=196 valign=top style='width:147.05pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+													<td width=150 valign=top style='width:112.2pt;border-top:none;border-left:
+									  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:13.55pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal style='line-height:115%'>* <span style='font-size:10.0pt;
+									line-height:115%'>(The developmental measures taken during teaching the course
+													and not included in the development plan of it)</span></p>
+
+											<p class=MsoNormal style='line-height:115%'><span style='font-size:10.0pt;
+									line-height:115%'>&nbsp;</span></p>
+
+											<h2><a name="_Toc1047222">2.�� Action Plan for Next Semester/Year</a>� </h2>
+
+											<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+												style='border-collapse:collapse;border:none'>
+												<thead>
+													<tr style='page-break-inside:avoid;height:12.55pt'>
+														<td width=207 rowspan=2 style='width:155.1pt;border:solid windowtext 2.25pt;
+									   border-bottom:solid windowtext 1.0pt;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;
+									   height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Recommendations</b></p>
+														</td>
+														<td width=115 rowspan=2 style='width:85.9pt;border-top:solid windowtext 2.25pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 2.25pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Actions </b></p>
+														</td>
+														<td width=128 rowspan=2 style='width:95.85pt;border-top:solid windowtext 2.25pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 2.25pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span
+																		style='font-size:10.0pt'>Responsibility</span></b>
+															</p>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b><span style='font-size:10.0pt'>For
+																		Implementation</span></b></p>
+														</td>
+														<td width=86 colspan=2 style='width:64.6pt;border:solid windowtext 2.25pt;
+									   border-left:none;background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Time</b></p>
+														</td>
+														<td width=86 rowspan=2 style='width:64.8pt;border-top:solid windowtext 2.25pt;
+									   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 2.25pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Needed</b></p>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<b>Support</b></p>
+														</td>
+													</tr>
+													<tr style='page-break-inside:avoid;height:12.55pt'>
+														<td width=43 style='width:32.25pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:11.0pt'>Start</span></p>
+														</td>
+														<td width=43 style='width:32.35pt;border-top:none;border-left:none;
+									   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									   background:#D6E3BC;padding:0cm 5.4pt 0cm 5.4pt;height:12.55pt'>
+															<p class=MsoNormal align=center style='text-align:center'>
+																<span style='font-size:11.0pt'>End </span>
+															</p>
+														</td>
+													</tr>
+												</thead>
+												<tr style='page-break-inside:avoid;height:17.25pt'>
+													<td width=207 valign=top style='width:155.1pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+									  line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+															</span><span dir=LTR></span>�</p>
+													</td>
+													<td width=115 style='width:85.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=128 style='width:95.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=43 style='width:32.25pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=43 style='width:32.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=86 style='width:64.8pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:17.25pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='page-break-inside:avoid;height:17.25pt'>
+													<td width=207 valign=top style='width:155.1pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+									  line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+															</span><span dir=LTR></span>�</p>
+													</td>
+													<td width=115 style='width:85.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=128 style='width:95.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=43 style='width:32.25pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=43 style='width:32.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:17.25pt'>
+														<input type="text" class="txt-cell" />
+													<td width=86 style='width:64.8pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:17.25pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+												<tr style='page-break-inside:avoid;height:18.4pt'>
+													<td width=207 valign=top style='width:155.1pt;border:solid windowtext 1.0pt;
+									  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:18.4pt'>
+														<p class=MsoListParagraph style='margin-left:14.2pt;text-indent:-14.2pt;
+									  line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+															</span><span dir=LTR></span>�</p>
+													</td>
+													<td width=115 style='width:85.9pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:18.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=128 style='width:95.85pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:18.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=43 style='width:32.25pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:18.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=43 style='width:32.35pt;border-top:none;border-left:none;
+									  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+									  padding:0cm 5.4pt 0cm 5.4pt;height:18.4pt'>
+														<input type="text" class="txt-cell" />
+													<td width=86 style='width:64.8pt;border-top:none;border-left:none;border-bottom:
+									  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+									  height:18.4pt'>
+														<input type="text" class="txt-cell" />
+												</tr>
+											</table>
+
+											<p class=MsoNormal>&nbsp;</p>
+
+										</div>
+
+										<!--end::Portlet-->
+
+
+
+										<!--end::Portlet-->
+									</div>
+								</div>
+							</div>
+							<!-- end:: Content -->
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- end:: Page -->
+
+		<!-- begin::Quick Panel -->
+
+		<!-- end::Quick Panel -->
+
+		<!-- begin::Scrolltop -->
+		<div id="kt_scrolltop" class="kt-scrolltop">
+			<i class="fa fa-arrow-up"></i>
+		</div>
+
+		<!-- end::Scrolltop -->
+
+		<!-- begin::Sticky Toolbar -->
+
+
+		<!-- end::Sticky Toolbar -->
+
+		<!-- begin::Demo Panel -->
+
+
+		<!-- end::Demo Panel -->
+
+		<!--Begin:: Chat-->
+
+		<!--ENd:: Chat-->
+
+		<!-- begin::Global Config(global config for global JS sciprts) -->
+		<script>
+			var KTAppOptions = {
+				"colors": {
+					"state": {
+						"brand": "#374afb",
+						"light": "#ffffff",
+						"dark": "#282a3c",
+						"primary": "#5867dd",
+						"success": "#34bfa3",
+						"info": "#36a3f7",
+						"warning": "#ffb822",
+						"danger": "#fd3995"
+					},
+					"base": {
+						"label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+						"shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+					}
+				}
+			};
+		</script>
+
+		<!-- end::Global Config -->
+
+		<!--begin::Global Theme Bundle(used by all pages) -->
+		<script src="assets/plugins/global/plugins.bundle.js" type="text/javascript"></script>
+		<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+		<!--end::Global Theme Bundle -->
+
+		<!--begin::Page Vendors(used by this page) -->
+		<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
+		<script src="//maps.google.com/maps/api/js?key=AIzaSyBTGnKT7dt597vo9QgeQ7BFhvSRP4eiMSM"
+			type="text/javascript"></script>
+		<script src="assets/plugins/custom/gmaps/gmaps.js" type="text/javascript"></script>
+
+		<!--end::Page Vendors -->
+
+		<!--begin::Page Scripts(used by this page) -->
+		<script src="assets/js/pages/dashboard.js" type="text/javascript"></script>
+
+		<!--end::Page Scripts -->
+</body>
+
+<!-- end::Body -->
+
+</html>
