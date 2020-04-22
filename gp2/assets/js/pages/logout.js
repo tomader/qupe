@@ -9,7 +9,7 @@ $(document).ready(function () {
             .then(function (response) {
                 //handle success
                 console.log(response);
-                window.location.href = "https://gp2.herokuapp.com/gp2/logIn.html";
+                window.location.href = "https://tomader.github.io/qupe/gp2/logIn.html";
             })
             .catch(function (response) {
                 //handle error

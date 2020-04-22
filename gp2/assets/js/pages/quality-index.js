@@ -57,7 +57,7 @@ $(document).ready(function () {
             // if (response.data.ROLE == 3)
             //     $('#user-name').append(response.data.FIRST_NAME);
             // else
-            //     window.location.href = "https://gp2.herokuapp.com/gp2/error-page.html";
+            //     window.location.href = "https://tomader.github.io/qupe/gp2/error-page.html";
 
 
 

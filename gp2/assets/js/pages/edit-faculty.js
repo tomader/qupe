@@ -222,7 +222,7 @@ $(document).ready(function () {
         });
     });
     $('#cancel').click(function () {
-        window.location.href = "https://gp2.herokuapp.com/gp2/admin/adminIndex.html";
+        window.location.href = "https://tomader.github.io/qupe/gp2/admin/adminIndex.html";
     });
 
 });
