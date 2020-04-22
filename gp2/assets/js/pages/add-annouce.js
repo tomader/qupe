@@ -46,7 +46,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.herokuapp.com/backend/announce.php',
+            url: 'https://gp2.herokuapp.com/backend/announce.php',
             data: values
         })
             .then(function (response) {

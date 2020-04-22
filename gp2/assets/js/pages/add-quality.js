@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.herokuapp.com/backend/qualityAdd.php',
+            url: 'https://gp2.herokuapp.com/backend/qualityAdd.php',
             data: values
         })
             .then(function (response) {

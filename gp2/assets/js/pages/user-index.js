@@ -26,7 +26,7 @@ function getFormData($form) {
 function getAnnouncerName(user_id) {
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/one-user.php',
+        url: 'https://gp2.herokuapp.com/backend/one-user.php',
         data: {
             user_id: user_id
         }
@@ -45,7 +45,7 @@ function getAnnouncerName(user_id) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/user-name.php'
+        url: 'https://gp2.herokuapp.com/backend/user-name.php'
     })
         .then(function (response) {
             $.each(response.data, function (key, value) {
@@ -55,7 +55,7 @@ $(document).ready(function () {
             //     $('#user-name').append(response.data.FIRST_NAME);
             // }
             // else {
-            //     window.location.href = "https://qupe.herokuapp.com/gp2/error-page.html";
+            //     window.location.href = "https://gp2.herokuapp.com/gp2/error-page.html";
             // }
         })
         .catch(function (response) {
@@ -66,14 +66,14 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/user-courses.php'
+        url: 'https://gp2.herokuapp.com/backend/user-courses.php'
     })
         .then(function (response) {
             //handle success
             let $select = $('#user-courses');
             console.log(response);
             $.each(response.data, function (key, value) {
-                var currentUrl = 'https://qupe.herokuapp.com/gp2/faculty/one-course.html';
+                var currentUrl = 'https://gp2.herokuapp.com/gp2/faculty/one-course.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID); // setting your param
                 var newUrl = url.href;
@@ -92,7 +92,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/fetch-announce.php'
+        url: 'https://gp2.herokuapp.com/backend/fetch-announce.php'
     })
         .then(function (response) {
             //handle success
@@ -121,14 +121,14 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/fetch-feedback-CR.php'
+        url: 'https://gp2.herokuapp.com/backend/fetch-feedback-CR.php'
     })
         .then(function (response) {
             //handle success
             console.log(response);
             axios({
                 method: 'post',
-                url: 'https://qupe.herokuapp.com/backend/fetch-feedback-CS.php'
+                url: 'https://gp2.herokuapp.com/backend/fetch-feedback-CS.php'
             })
                 .then(function (response2) {
                     //handle success

@@ -27,7 +27,7 @@ function getFormData($form) {
 function getAnnouncerName(user_id) {
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/one-user.php',
+        url: 'https://gp2.herokuapp.com/backend/one-user.php',
         data: {
             user_id: user_id
         }
@@ -48,7 +48,7 @@ function getAnnouncerName(user_id) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/user-name.php'
+        url: 'https://gp2.herokuapp.com/backend/user-name.php'
     })
         .then(function (response) {
             $.each(response.data, function (key, value) {
@@ -57,7 +57,7 @@ $(document).ready(function () {
             // if (response.data.ROLE == 3)
             //     $('#user-name').append(response.data.FIRST_NAME);
             // else
-            //     window.location.href = "https://qupe.herokuapp.com/gp2/error-page.html";
+            //     window.location.href = "https://gp2.herokuapp.com/gp2/error-page.html";
 
 
 
@@ -70,7 +70,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/fetch_dept.php'
+        url: 'https://gp2.herokuapp.com/backend/fetch_dept.php'
     })
         .then(function (response) {
             //handle success
@@ -80,7 +80,7 @@ $(document).ready(function () {
 
 
             $.each(response.data, function (key, value) {
-                var currentUrl = 'https://qupe.herokuapp.com/gp2/QualityMember/courses-of-dept.html';
+                var currentUrl = 'https://gp2.herokuapp.com/gp2/QualityMember/courses-of-dept.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID); // setting your param
                 var newUrl = url.href;
@@ -96,7 +96,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/fetch-announce.php'
+        url: 'https://gp2.herokuapp.com/backend/fetch-announce.php'
     })
         .then(function (response) {
             //handle success

@@ -26,14 +26,14 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/user-courses.php'
+        url: 'https://gp2.herokuapp.com/backend/user-courses.php'
     })
         .then(function (response) {
             //handle success
             let $select = $('#userCourses');
             console.log(response);
             $.each(response.data, function (key, value) {
-                var currentUrl = 'https://qupe.herokuapp.com/gp2/faculty/one-course.html';
+                var currentUrl = 'https://gp2.herokuapp.com/gp2/faculty/one-course.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID); // setting your param
                 var newUrl = url.href;

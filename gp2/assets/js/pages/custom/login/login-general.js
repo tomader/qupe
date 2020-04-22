@@ -97,7 +97,7 @@ var KTLoginGeneral = function () {
             console.log(values);
             axios({
                 method: 'post',
-                url: 'https://qupe.herokuapp.com/backend/logIn.php',
+                url: 'https://gp2.herokuapp.com/backend/logIn.php',
                 data: values
             })
                 .then(function (response) {
@@ -106,13 +106,13 @@ var KTLoginGeneral = function () {
                     let role = Number(response.data);
 
                     if (role == 1)
-                        window.location.href = "https://qupe.herokuapp.com/gp2/admin/adminIndex.html";
+                        window.location.href = "https://gp2.herokuapp.com/gp2/admin/adminIndex.html";
                     else if (role == 2)
-                        window.location.href = "https://qupe.herokuapp.com/gp2/TheHead/HIndex.html";
+                        window.location.href = "https://gp2.herokuapp.com/gp2/TheHead/HIndex.html";
                     else if (role == 3)
-                        window.location.href = "https://qupe.herokuapp.com/gp2/QualityMember/QIndex.html";
+                        window.location.href = "https://gp2.herokuapp.com/gp2/QualityMember/QIndex.html";
                     else if (role == 4)
-                        window.location.href = "https://qupe.herokuapp.com/gp2/faculty/index.html";
+                        window.location.href = "https://gp2.herokuapp.com/gp2/faculty/index.html";
 
                     btn.removeClass('kt-spinner kt-spinner--right kt-spinner--sm kt-spinner--light').attr('disabled', false);
                 })

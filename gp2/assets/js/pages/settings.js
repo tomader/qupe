@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/user-name.php'
+        url: 'https://gp2.herokuapp.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.herokuapp.com/backend/settings.php',
+            url: 'https://gp2.herokuapp.com/backend/settings.php',
             data: values
         })
             .then(function (response) {

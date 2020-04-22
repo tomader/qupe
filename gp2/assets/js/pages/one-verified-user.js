@@ -30,7 +30,7 @@ $(document).ready(function () {
     //getUSerName(userId);
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/verified-user-cs.php',
+        url: 'https://gp2.herokuapp.com/backend/verified-user-cs.php',
         data: {
             user_id: userId
         }
@@ -42,7 +42,7 @@ $(document).ready(function () {
                 let time = value.TIME;
                 axios({
                     method: 'post',
-                    url: 'https://qupe.herokuapp.com/backend/fetch-courseName-from-csId.php',
+                    url: 'https://gp2.herokuapp.com/backend/fetch-courseName-from-csId.php',
                     data: {
                         cs_id: value.ID
                     }
@@ -52,7 +52,7 @@ $(document).ready(function () {
                         console.log(response1);
                         //checkUserReports(value.ID);
                         if (value.STATUS == 5) {
-                            var currentUrl = 'https://qupe.herokuapp.com/gp2/TheHead/verified-CourseSpeci.html';
+                            var currentUrl = 'https://gp2.herokuapp.com/gp2/TheHead/verified-CourseSpeci.html';
                             var url = new URL(currentUrl);
                             url.searchParams.set("id", value.ID);
                             var newUrl = url.href;
@@ -72,7 +72,7 @@ $(document).ready(function () {
                                 '</div></div >');
                         }
                         else if (value.STATUS == 3) {
-                            var currentUrl = 'https://qupe.herokuapp.com/gp2/TheHead/CourseSpeci.html';
+                            var currentUrl = 'https://gp2.herokuapp.com/gp2/TheHead/CourseSpeci.html';
                             var url = new URL(currentUrl);
                             url.searchParams.set("id", value.ID);
                             var newUrl = url.href;
@@ -106,7 +106,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/verified-user-cr.php',
+        url: 'https://gp2.herokuapp.com/backend/verified-user-cr.php',
         data: {
             user_id: userId
         }
@@ -118,7 +118,7 @@ $(document).ready(function () {
                 let time = value.TIME;
                 axios({
                     method: 'post',
-                    url: 'https://qupe.herokuapp.com/backend/fetch-courseName-from-crId.php',
+                    url: 'https://gp2.herokuapp.com/backend/fetch-courseName-from-crId.php',
                     data: {
                         cr_id: value.ID
                     }
@@ -129,7 +129,7 @@ $(document).ready(function () {
                         //checkUserReports(value.ID);
 
                         if (value.STATUS == 5) {
-                            var currentUrl = 'https://qupe.herokuapp.com/gp2/TheHead/verified-CourseReport.html';
+                            var currentUrl = 'https://gp2.herokuapp.com/gp2/TheHead/verified-CourseReport.html';
                             var url = new URL(currentUrl);
                             url.searchParams.set("id", value.ID);
                             var newUrl = url.href;
@@ -150,7 +150,7 @@ $(document).ready(function () {
                                 '</div></div >');
                         }
                         else if (value.STATUS == 3) {
-                            var currentUrl = 'https://qupe.herokuapp.com/gp2/TheHead/CourseReport.html';
+                            var currentUrl = 'https://gp2.herokuapp.com/gp2/TheHead/CourseReport.html';
                             var url = new URL(currentUrl);
                             url.searchParams.set("id", value.ID);
                             var newUrl = url.href;

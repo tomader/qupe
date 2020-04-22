@@ -26,14 +26,14 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/user-name.php'
+        url: 'https://gp2.herokuapp.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
             // if (response.data.ROLE == 1)
             //     $('#user-name').append(response.data.FIRST_NAME);
             // else
-            //     window.location.href = "https://qupe.herokuapp.com/gp2/error-page.html";
+            //     window.location.href = "https://gp2.herokuapp.com/gp2/error-page.html";
 
 
 
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.herokuapp.com/backend/fetch_dept.php'
+        url: 'https://gp2.herokuapp.com/backend/fetch_dept.php'
     })
         .then(function (response) {
             //handle success
@@ -93,7 +93,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.herokuapp.com/backend/add-course.php',
+            url: 'https://gp2.herokuapp.com/backend/add-course.php',
             data: values
         })
             .then(function (response) {
