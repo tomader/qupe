@@ -1,3 +1,8 @@
+<?php
+// page2.php
+
+session_start();
+?>
 <!DOCTYPE html>
 
 <!--
