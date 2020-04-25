@@ -26,7 +26,7 @@ function getFormData($form) {
 function getProgName(progId) {
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/get-progName.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/get-progName.php',
         data: {
             prog_id: progId
         }
@@ -45,7 +45,7 @@ function getProgName(progId) {
 function getDeptName(deptId) {
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/get-deptName.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/get-deptName.php',
         data: {
             dept_id: deptId
         }
@@ -69,7 +69,7 @@ var crID = url.searchParams.get("id");
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/userName-from-crID.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/userName-from-crID.php',
         data: {
             cr_id: crID
         }
@@ -90,7 +90,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/courseInfo-from-crID.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/courseInfo-from-crID.php',
         data: {
             cr_id: crID
         }
@@ -108,7 +108,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/fetch-feedbackText-from-crID.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/fetch-feedbackText-from-crID.php',
         data: {
             cr_id: crID
         }
@@ -126,7 +126,7 @@ $(document).ready(function () {
     let a_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableA.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableA.php',
         data: {
             cr_id: crID
         }
@@ -147,7 +147,7 @@ $(document).ready(function () {
     let b1_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableB1.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableB1.php',
         data: {
             cr_id: crID
         }
@@ -180,7 +180,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableB2.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableB2.php',
         data: {
             cr_id: crID
         }
@@ -208,7 +208,7 @@ $(document).ready(function () {
     let c1_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableC1.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableC1.php',
         data: {
             cr_id: crID
         }
@@ -243,7 +243,7 @@ $(document).ready(function () {
     let c2_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableC2.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableC2.php',
         data: {
             cr_id: crID
         }
@@ -274,7 +274,7 @@ $(document).ready(function () {
     let d_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableD.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableD.php',
         data: {
             cr_id: crID
         }
@@ -309,7 +309,7 @@ $(document).ready(function () {
     let e1_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableE1.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableE1.php',
         data: {
             cr_id: crID
         }
@@ -336,7 +336,7 @@ $(document).ready(function () {
     let e2_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableE2.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableE2.php',
         data: {
             cr_id: crID
         }
@@ -362,7 +362,7 @@ $(document).ready(function () {
     let f_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableF.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableF.php',
         data: {
             cr_id: crID
         }
@@ -387,7 +387,7 @@ $(document).ready(function () {
     let g_id = 0;
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/cr-tableG.php',
+        url: 'https://gpqupe.000webhostapp.com/backend/cr-tableG.php',
         data: {
             cr_id: crID
         }
@@ -446,7 +446,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.000webhostapp.com/backend/edit-courseReport.php',
+            url: 'https://gpqupe.000webhostapp.com/backend/edit-courseReport.php',
             data: values
         })
             .then(function (response) {

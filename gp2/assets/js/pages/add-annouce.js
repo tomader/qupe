@@ -46,7 +46,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.000webhostapp.com/backend/announce.php',
+            url: 'https://gpqupe.000webhostapp.com/backend/announce.php',
             data: values
         })
             .then(function (response) {

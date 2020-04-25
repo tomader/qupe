@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/user-name.php'
+        url: 'https://gpqupe.000webhostapp.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe.000webhostapp.com/backend/settings.php',
+            url: 'https://gpqupe.000webhostapp.com/backend/settings.php',
             data: values
         })
             .then(function (response) {

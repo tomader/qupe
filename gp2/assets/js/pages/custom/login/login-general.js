@@ -97,7 +97,7 @@ var KTLoginGeneral = function () {
             console.log(values);
             axios({
                 method: 'post',
-                url: 'https://qupe.000webhostapp.com/backend/logIn.php',
+                url: 'https://gpqupe.000webhostapp.com/backend/logIn.php',
                 data: values
             })
                 .then(function (response) {
