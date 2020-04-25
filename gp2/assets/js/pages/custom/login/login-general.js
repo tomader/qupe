@@ -112,7 +112,7 @@ var KTLoginGeneral = function () {
                     else if (role == 3)
                         window.location.href = "https://tomader.github.io/qupe/gp2/QualityMember/QIndex.html";
                     else if (role == 4)
-                        window.location.href = "https://tomader.github.io/qupe/gp2/faculty/";
+                        window.location.href = "https://tomader.github.io/qupe/gp2/faculty/index.html";
 
                     btn.removeClass('kt-spinner kt-spinner--right kt-spinner--sm kt-spinner--light').attr('disabled', false);
                 })
