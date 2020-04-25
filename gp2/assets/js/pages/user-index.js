@@ -55,7 +55,7 @@ $(document).ready(function () {
             //     $('#user-name').append(response.data.FIRST_NAME);
             // }
             // else {
-            //     window.location.href = "https://tomader.github.io/qupe/gp2/error-page.html";
+            //     window.location.href = "https://gpqupe.000webhostapp.com/gp2/error-page.html";
             // }
         })
         .catch(function (response) {

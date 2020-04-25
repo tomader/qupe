@@ -148,7 +148,7 @@ $(document).ready(function () {
         });
     });
     $('#cancel').click(function () {
-        window.location.href = "https://tomader.github.io/qupe/gp2/admin/adminIndex.html";
+        window.location.href = "https://gpqupe.000webhostapp.com/gp2/admin/adminIndex.html";
     });
 
 });

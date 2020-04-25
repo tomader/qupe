@@ -106,13 +106,13 @@ var KTLoginGeneral = function () {
                     let role = Number(response.data);
 
                     if (role == 1)
-                        window.location.href = "https://tomader.github.io/qupe/gp2/admin/adminIndex.html";
+                        window.location.href = "https://gpqupe.000webhostapp.com/gp2/admin/adminIndex.html";
                     else if (role == 2)
-                        window.location.href = "https://tomader.github.io/qupe/gp2/TheHead/HIndex.html";
+                        window.location.href = "https://gpqupe.000webhostapp.com/gp2/TheHead/HIndex.html";
                     else if (role == 3)
-                        window.location.href = "https://tomader.github.io/qupe/gp2/QualityMember/QIndex.html";
+                        window.location.href = "https://gpqupe.000webhostapp.com/gp2/QualityMember/QIndex.html";
                     else if (role == 4)
-                        window.location.href = "https://tomader.github.io/qupe/gp2/faculty/index.html";
+                        window.location.href = "https://gpqupe.000webhostapp.com/gp2/faculty/index.html";
 
                     btn.removeClass('kt-spinner kt-spinner--right kt-spinner--sm kt-spinner--light').attr('disabled', false);
                 })
