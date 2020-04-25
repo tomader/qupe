@@ -15,7 +15,7 @@ var showErrorMsg = function (form, type, msg) {
 function getUserName(csID) {
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/userName-from-csID.php',
+        url: 'https://qupe-backend.herokuapp.com/backend/userName-from-csID.php',
         data: {
             cs_id: csID
         }
@@ -35,7 +35,7 @@ function getUserName(csID) {
 function getCourseName(courseId) {
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/get-courseName.php',
+        url: 'https://qupe-backend.herokuapp.com/backend/get-courseName.php',
         data: {
             course_id: courseId
         }
@@ -70,7 +70,7 @@ $(document).ready(function () {
     getCourseName(courseId);
     axios({
         method: 'post',
-        url: 'https://qupe.000webhostapp.com/backend/verified-cs.php',
+        url: 'https://qupe-backend.herokuapp.com/backend/verified-cs.php',
         data: {
             course_id: courseId
         }
@@ -82,7 +82,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
                 let time = value.TIME;
                 getUserName(value.ID);
-                var currentUrl = 'https://qupe.000webhostapp.com/gp2/TheHead/CourseSpeci.html';
+                var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/TheHead/CourseSpeci.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID);
                 var courseSpeci = url.href;
@@ -124,7 +124,7 @@ $(document).ready(function () {
                     '</div >' +
                     '</div >');
 
-                // var currentUrl = 'https://qupe.000webhostapp.com/gp2/quality/CourseReport.html';
+                // var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/quality/CourseReport.html';
                 // var url = new URL(currentUrl);
                 // url.searchParams.set("id", value.USER_ID);
                 // var courseReport = url.href;
