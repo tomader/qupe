@@ -46,7 +46,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/announce.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/announce.php',
             data: values
         })
             .then(function (response) {

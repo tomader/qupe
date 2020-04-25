@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/qualityAdd.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/qualityAdd.php',
             data: values
         })
             .then(function (response) {

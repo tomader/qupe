@@ -18,7 +18,7 @@ var showErrorMsg = function (form, type, msg) {
 function getCourseName(courseId) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/get-courseName.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-courseName.php',
         data: {
             course_id: courseId
         }
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch-deadline.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-deadline.php',
         data: {
             course_id: courseId
         }
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/submitted-cs.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/submitted-cs.php',
         data: {
             course_id: courseId
         }
@@ -89,7 +89,7 @@ $(document).ready(function () {
 
                 axios({
                     method: 'post',
-                    url: 'https://gp2.herokuapp.com/backend/userName-from-csID.php',
+                    url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/userName-from-csID.php',
                     data: {
                         cs_id: value.ID
                     }
@@ -97,7 +97,7 @@ $(document).ready(function () {
                     .then(function (response) {
                         //handle success
                         console.log(response);
-                        var currentUrl = 'https://gp2.herokuapp.com/gp2/qualityMember/CourseSpeci.html';
+                        var currentUrl = 'http://phpstack-399934-1259248.cloudwaysapps.com/gp2/qualityMember/CourseSpeci.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var courseSpeci = url.href;
@@ -203,7 +203,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/submitted-cr.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/submitted-cr.php',
         data: {
             course_id: courseId
         }
@@ -216,14 +216,14 @@ $(document).ready(function () {
                 let time = value.TIME;
                 axios({
                     method: 'post',
-                    url: 'https://gp2.herokuapp.com/backend/userName-from-crID.php',
+                    url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/userName-from-crID.php',
                     data: {
                         cr_id: value.ID
                     }
                 })
                     .then(function (response) {
                         //handle success
-                        var currentUrl = 'https://gp2.herokuapp.com/gp2/qualityMember/CourseReport.html';
+                        var currentUrl = 'http://phpstack-399934-1259248.cloudwaysapps.com/gp2/qualityMember/CourseReport.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var courseReport = url.href;

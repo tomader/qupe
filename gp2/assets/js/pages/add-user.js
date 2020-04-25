@@ -16,7 +16,7 @@ var showErrorMsg = function (form, type, msg) {
 function getCoursesFromDept(dept_id) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch-courses-from-dept.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-courses-from-dept.php',
         data: {
             dept: dept_id
         }
@@ -65,7 +65,7 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/user-name.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-name.php'
     })
         .then(function (response) {
             $('#user-name').append(response.data.FIRST_NAME);
@@ -91,7 +91,7 @@ $(document).ready(function () {
     });
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch_dept.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch_dept.php'
     })
         .then(function (response) {
             //handle success
@@ -163,7 +163,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/add-faculty.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/add-faculty.php',
             data: values
         })
             .then(function (response) {

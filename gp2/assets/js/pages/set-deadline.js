@@ -26,7 +26,7 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch-deadline.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-deadline.php'
     })
         .then(function (response) {
             $('#set-deadline').append('On the day: <input type="date" class="form-control" name="date" value="' + response.data.DATE + '"></br>' +
@@ -62,7 +62,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/set-deadline.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/set-deadline.php',
             data: values
         })
             .then(function (response) {

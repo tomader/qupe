@@ -26,7 +26,7 @@ function getFormData($form) {
 function getAnnouncerName(user_id) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/one-user.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/one-user.php',
         data: {
             user_id: user_id
         }
@@ -45,7 +45,7 @@ function getAnnouncerName(user_id) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/user-name.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-name.php'
     })
         .then(function (response) {
             $.each(response.data, function (key, value) {
@@ -66,14 +66,14 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/user-courses.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-courses.php'
     })
         .then(function (response) {
             //handle success
             let $select = $('#user-courses');
             console.log(response);
             $.each(response.data, function (key, value) {
-                var currentUrl = 'https://gp2.herokuapp.com/gp2/faculty/one-course.html';
+                var currentUrl = 'http://phpstack-399934-1259248.cloudwaysapps.com/gp2/faculty/one-course.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID); // setting your param
                 var newUrl = url.href;
@@ -92,7 +92,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch-announce.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-announce.php'
     })
         .then(function (response) {
             //handle success
@@ -121,14 +121,14 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch-feedback-CR.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-feedback-CR.php'
     })
         .then(function (response) {
             //handle success
             console.log(response);
             axios({
                 method: 'post',
-                url: 'https://gp2.herokuapp.com/backend/fetch-feedback-CS.php'
+                url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-feedback-CS.php'
             })
                 .then(function (response2) {
                     //handle success

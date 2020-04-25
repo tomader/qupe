@@ -3,13 +3,13 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/logout.php'
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/logout.php'
 
         })
             .then(function (response) {
                 //handle success
                 console.log(response);
-                window.location.href = "https://tomader.github.io/qupe/gp2/logIn.html";
+                window.location.href = "https://tomader.github.io/qupe/gp2/login.html";
             })
             .catch(function (response) {
                 //handle error

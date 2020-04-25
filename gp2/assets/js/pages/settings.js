@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/user-name.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/settings.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/settings.php',
             data: values
         })
             .then(function (response) {

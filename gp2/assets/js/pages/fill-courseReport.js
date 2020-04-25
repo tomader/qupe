@@ -26,7 +26,7 @@ function getFormData($form) {
 function getProgName(progId) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/get-progName.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-progName.php',
         data: {
             prog_id: progId
         }
@@ -45,7 +45,7 @@ function getProgName(progId) {
 function getDeptName(deptId) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/get-deptName.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-deptName.php',
         data: {
             dept_id: deptId
         }
@@ -67,7 +67,7 @@ function getDeptName(deptId) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/user-name.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -88,7 +88,7 @@ $(document).ready(function () {
     var crId = url.searchParams.get("id");
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/courseInfo-from-crID.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/courseInfo-from-crID.php',
         data: {
             cr_id: crId
         }
@@ -128,7 +128,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/fill-courseReport.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fill-courseReport.php',
             data: values
         })
             .then(function (response) {

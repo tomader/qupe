@@ -16,7 +16,7 @@ var showErrorMsg = function (form, type, msg) {
 function getCoursesFromDept(dept_id) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/fetch-courses-from-dept.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-courses-from-dept.php',
         data: {
             dept: dept_id
         }
@@ -57,7 +57,7 @@ function getFormData($form) {
 function getProgName(progId) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/get-progName.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-progName.php',
         data: {
             prog_id: progId
         }
@@ -76,7 +76,7 @@ function getProgName(progId) {
 function getDeptName(deptId) {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/get-deptName.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-deptName.php',
         data: {
             dept_id: deptId
         }
@@ -105,7 +105,7 @@ $('#AddKnowledge').click(function () {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/user-name.php'
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -126,7 +126,7 @@ $(document).ready(function () {
     var csId = url.searchParams.get("id");
     axios({
         method: 'post',
-        url: 'https://gp2.herokuapp.com/backend/courseInfo-from-csID.php',
+        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/courseInfo-from-csID.php',
         data: {
             cs_id: csId
         }
@@ -166,7 +166,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2.herokuapp.com/backend/fill-courseSpeci.php',
+            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fill-courseSpeci.php',
             data: values
         })
             .then(function (response) {
