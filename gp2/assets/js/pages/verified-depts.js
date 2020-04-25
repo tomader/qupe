@@ -27,7 +27,7 @@ let numberOfAll = 0
 function getNumberOfAllUsers(dept_id) {
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch-numberOf-all-users-from-dept.php',
+        url: 'https://gp2-qupe.com/backend/fetch-numberOf-all-users-from-dept.php',
         data: {
             dept: dept_id
         }
@@ -49,7 +49,7 @@ let numberOfUsers = 0;
 function getNumberOfUsers(dept_id) {
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/asshole.php',
+        url: 'https://gp2-qupe.com/backend/asshole.php',
         data: {
             dept: dept_id
         }
@@ -73,7 +73,7 @@ function checkCS(cs_id) {
     let status = 0;
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/fieldE.php',
+        url: 'https://gp2-qupe.com/backend/fieldE.php',
         data: {
             cs_id: cs_id
         }
@@ -104,7 +104,7 @@ function getPercent() {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch_dept.php'
+        url: 'https://gp2-qupe.com/backend/fetch_dept.php'
     })
         .then(function (response) {
             //handle success
@@ -112,7 +112,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
                 axios({
                     method: 'post',
-                    url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch-numberOf-all-users-from-dept.php',
+                    url: 'https://gp2-qupe.com/backend/fetch-numberOf-all-users-from-dept.php',
                     data: {
                         dept: value.ID
                     }
@@ -122,7 +122,7 @@ $(document).ready(function () {
                         console.log(response1);
                         axios({
                             method: 'post',
-                            url: 'https://unadaptable-odors.000webhostapp.com/backend/asshole.php',
+                            url: 'https://gp2-qupe.com/backend/asshole.php',
                             data: {
                                 dept: value.ID
                             }
@@ -132,7 +132,7 @@ $(document).ready(function () {
 
                                 axios({
                                     method: 'post',
-                                    url: 'https://unadaptable-odors.000webhostapp.com/backend/asshole.php',
+                                    url: 'https://gp2-qupe.com/backend/asshole.php',
                                     data: {
                                         dept: value.ID
                                     }
@@ -141,7 +141,7 @@ $(document).ready(function () {
                                         console.log(response3);
 
                                         let numberOfUsersWithVerifiedReports = response3.data.length + response2.data.length;
-                                        var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/TheHead/verified-users.html';
+                                        var currentUrl = 'https://gp2-qupe.com/gp2/TheHead/verified-users.html';
                                         var url = new URL(currentUrl);
                                         url.searchParams.set("id", value.ID); // setting your param
                                         var newUrl = url.href;

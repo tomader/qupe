@@ -18,7 +18,7 @@ var showErrorMsg = function (form, type, msg) {
 function getCourseName(courseId) {
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/get-courseName.php',
+        url: 'https://gp2-qupe.com/backend/get-courseName.php',
         data: {
             course_id: courseId
         }
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch-deadline.php',
+        url: 'https://gp2-qupe.com/backend/fetch-deadline.php',
         data: {
             course_id: courseId
         }
@@ -76,7 +76,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/submitted-cs.php',
+        url: 'https://gp2-qupe.com/backend/submitted-cs.php',
         data: {
             course_id: courseId
         }
@@ -89,7 +89,7 @@ $(document).ready(function () {
 
                 axios({
                     method: 'post',
-                    url: 'https://unadaptable-odors.000webhostapp.com/backend/userName-from-csID.php',
+                    url: 'https://gp2-qupe.com/backend/userName-from-csID.php',
                     data: {
                         cs_id: value.ID
                     }
@@ -97,7 +97,7 @@ $(document).ready(function () {
                     .then(function (response) {
                         //handle success
                         console.log(response);
-                        var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/qualityMember/CourseSpeci.html';
+                        var currentUrl = 'https://gp2-qupe.com/gp2/qualityMember/CourseSpeci.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var courseSpeci = url.href;
@@ -203,7 +203,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/submitted-cr.php',
+        url: 'https://gp2-qupe.com/backend/submitted-cr.php',
         data: {
             course_id: courseId
         }
@@ -216,14 +216,14 @@ $(document).ready(function () {
                 let time = value.TIME;
                 axios({
                     method: 'post',
-                    url: 'https://unadaptable-odors.000webhostapp.com/backend/userName-from-crID.php',
+                    url: 'https://gp2-qupe.com/backend/userName-from-crID.php',
                     data: {
                         cr_id: value.ID
                     }
                 })
                     .then(function (response) {
                         //handle success
-                        var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/qualityMember/CourseReport.html';
+                        var currentUrl = 'https://gp2-qupe.com/gp2/qualityMember/CourseReport.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var courseReport = url.href;

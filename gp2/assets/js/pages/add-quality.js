@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://unadaptable-odors.000webhostapp.com/backend/qualityAdd.php',
+            url: 'https://gp2-qupe.com/backend/qualityAdd.php',
             data: values
         })
             .then(function (response) {

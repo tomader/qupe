@@ -26,7 +26,7 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/user-name.php'
+        url: 'https://gp2-qupe.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch_dept.php'
+        url: 'https://gp2-qupe.com/backend/fetch_dept.php'
     })
         .then(function (response) {
             //handle success
@@ -93,7 +93,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://unadaptable-odors.000webhostapp.com/backend/add-course.php',
+            url: 'https://gp2-qupe.com/backend/add-course.php',
             data: values
         })
             .then(function (response) {

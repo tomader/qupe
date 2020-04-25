@@ -97,7 +97,7 @@ var KTLoginGeneral = function () {
             console.log(values);
             axios({
                 method: 'post',
-                url: 'https://unadaptable-odors.000webhostapp.com/backend/logIn.php',
+                url: 'https://gp2-qupe.com/backend/logIn.php',
                 data: values
             })
                 .then(function (response) {

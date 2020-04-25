@@ -3,7 +3,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://unadaptable-odors.000webhostapp.com/backend/logout.php'
+            url: 'https://gp2-qupe.com/backend/logout.php'
 
         })
             .then(function (response) {

@@ -31,7 +31,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch_dept.php',
+        url: 'https://gp2-qupe.com/backend/fetch_dept.php',
         data: {
             dept: deptId
         }
@@ -41,7 +41,7 @@ $(document).ready(function () {
             let $select = $('#depts');
             console.log(response);
             $.each(response.data, function (key, value) {
-                var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/qualityMember/courses-of-dept.html';
+                var currentUrl = 'https://gp2-qupe.com/gp2/qualityMember/courses-of-dept.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID);
                 var newUrl = url.href;
