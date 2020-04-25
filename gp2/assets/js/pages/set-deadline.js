@@ -26,7 +26,7 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/fetch-deadline.php'
+        url: 'https://qupe.000webhostapp.com/backend/fetch-deadline.php'
     })
         .then(function (response) {
             $('#set-deadline').append('On the day: <input type="date" class="form-control" name="date" value="' + response.data.DATE + '"></br>' +
@@ -62,7 +62,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/set-deadline.php',
+            url: 'https://qupe.000webhostapp.com/backend/set-deadline.php',
             data: values
         })
             .then(function (response) {

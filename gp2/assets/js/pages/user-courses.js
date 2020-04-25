@@ -26,14 +26,14 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/user-courses.php'
+        url: 'https://qupe.000webhostapp.com/backend/user-courses.php'
     })
         .then(function (response) {
             //handle success
             let $select = $('#userCourses');
             console.log(response);
             $.each(response.data, function (key, value) {
-                var currentUrl = 'https://gp2-qupe.com/gp2/faculty/one-course.html';
+                var currentUrl = 'https://qupe.000webhostapp.com/gp2/faculty/one-course.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID); // setting your param
                 var newUrl = url.href;

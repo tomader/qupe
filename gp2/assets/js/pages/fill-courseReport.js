@@ -26,7 +26,7 @@ function getFormData($form) {
 function getProgName(progId) {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/get-progName.php',
+        url: 'https://qupe.000webhostapp.com/backend/get-progName.php',
         data: {
             prog_id: progId
         }
@@ -45,7 +45,7 @@ function getProgName(progId) {
 function getDeptName(deptId) {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/get-deptName.php',
+        url: 'https://qupe.000webhostapp.com/backend/get-deptName.php',
         data: {
             dept_id: deptId
         }
@@ -67,7 +67,7 @@ function getDeptName(deptId) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/user-name.php'
+        url: 'https://qupe.000webhostapp.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -88,7 +88,7 @@ $(document).ready(function () {
     var crId = url.searchParams.get("id");
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/courseInfo-from-crID.php',
+        url: 'https://qupe.000webhostapp.com/backend/courseInfo-from-crID.php',
         data: {
             cr_id: crId
         }
@@ -128,7 +128,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/fill-courseReport.php',
+            url: 'https://qupe.000webhostapp.com/backend/fill-courseReport.php',
             data: values
         })
             .then(function (response) {

@@ -26,7 +26,7 @@ function getFormData($form) {
 function getProgName(progId) {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/get-progName.php',
+        url: 'https://qupe.000webhostapp.com/backend/get-progName.php',
         data: {
             prog_id: progId
         }
@@ -45,7 +45,7 @@ function getProgName(progId) {
 function getDeptName(deptId) {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/get-deptName.php',
+        url: 'https://qupe.000webhostapp.com/backend/get-deptName.php',
         data: {
             dept_id: deptId
         }
@@ -69,7 +69,7 @@ var csID = url.searchParams.get("id");
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/userName-from-csID.php',
+        url: 'https://qupe.000webhostapp.com/backend/userName-from-csID.php',
         data: {
             cs_id: csID
         }
@@ -90,7 +90,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/courseInfo-from-csID.php',
+        url: 'https://qupe.000webhostapp.com/backend/courseInfo-from-csID.php',
         data: {
             cs_id: csID
         }
@@ -110,7 +110,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableA.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableA.php',
         data: {
             cs_id: csID
         }
@@ -169,7 +169,7 @@ $(document).ready(function () {
     function getTableA_Mode(modeId) {
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/tableA_Mode.php',
+            url: 'https://qupe.000webhostapp.com/backend/tableA_Mode.php',
             data: {
                 mode_id: modeId
             }
@@ -198,7 +198,7 @@ $(document).ready(function () {
     function getTableA_Actual(actualId) {
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/tableA_actual.php',
+            url: 'https://qupe.000webhostapp.com/backend/tableA_actual.php',
             data: {
                 actual_id: actualId
             }
@@ -227,7 +227,7 @@ $(document).ready(function () {
     }
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableB.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableB.php',
         data: {
             cs_id: csID
         }
@@ -246,7 +246,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableB_knowledge.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableB_knowledge.php',
         data: {
             cs_id: csID
         }
@@ -264,7 +264,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableB_skills.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableB_skills.php',
         data: {
             cs_id: csID
         }
@@ -282,7 +282,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableB_competence.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableB_competence.php',
         data: {
             cs_id: csID
         }
@@ -300,7 +300,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableC.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableC.php',
         data: {
             cs_id: csID
         }
@@ -319,7 +319,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableD_competence.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableD_competence.php',
         data: {
             cs_id: csID
         }
@@ -338,7 +338,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableD_Knowledge.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableD_Knowledge.php',
         data: {
             cs_id: csID
         }
@@ -357,7 +357,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableD_Skills.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableD_Skills.php',
         data: {
             cs_id: csID
         }
@@ -376,7 +376,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableD_Asses.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableD_Asses.php',
         data: {
             cs_id: csID
         }
@@ -395,7 +395,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/fieldE.php',
+        url: 'https://qupe.000webhostapp.com/backend/fieldE.php',
         data: {
             cs_id: csID
         }
@@ -413,7 +413,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableF.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableF.php',
         data: {
             cs_id: csID
         }
@@ -435,7 +435,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableG.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableG.php',
         data: {
             cs_id: csID
         }
@@ -453,7 +453,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/tableH.php',
+        url: 'https://qupe.000webhostapp.com/backend/tableH.php',
         data: {
             cs_id: csID
         }
@@ -496,7 +496,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/cs-send-feedback.php',
+            url: 'https://qupe.000webhostapp.com/backend/cs-send-feedback.php',
             data: values
         })
             .then(function (response) {
@@ -542,7 +542,7 @@ $(document).ready(function () {
     $('#verify').click(function () {
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/verify-cs.php',
+            url: 'https://qupe.000webhostapp.com/backend/verify-cs.php',
             data: {
                 cs_id: csID
             }

@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/fetch-feedback-CS.php'
+        url: 'https://qupe.000webhostapp.com/backend/fetch-feedback-CS.php'
     })
         .then(function (response) {
             //handle success
@@ -43,7 +43,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
                 axios({
                     method: 'post',
-                    url: 'https://gp2-qupe.com/backend/courseInfo-from-csID.php',
+                    url: 'https://qupe.000webhostapp.com/backend/courseInfo-from-csID.php',
                     data: {
                         cs_id: value.ID
                     }
@@ -52,7 +52,7 @@ $(document).ready(function () {
                         //handle success
                         console.log(response);
                         let time = value.TIME;
-                        var currentUrl = 'https://gp2-qupe.com/gp2/faculty/feedback-CS.html';
+                        var currentUrl = 'https://qupe.000webhostapp.com/gp2/faculty/feedback-CS.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var courseSpeci = url.href;
@@ -112,7 +112,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/fetch-feedback-CR.php'
+        url: 'https://qupe.000webhostapp.com/backend/fetch-feedback-CR.php'
     })
         .then(function (response) {
             //handle success
@@ -120,7 +120,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
                 axios({
                     method: 'post',
-                    url: 'https://gp2-qupe.com/backend/courseInfo-from-crID.php',
+                    url: 'https://qupe.000webhostapp.com/backend/courseInfo-from-crID.php',
                     data: {
                         cr_id: value.ID
                     }
@@ -129,7 +129,7 @@ $(document).ready(function () {
                         //handle success
                         console.log(response);
                         let time = value.TIME;
-                        var currentUrl = 'https://gp2-qupe.com/gp2/faculty/feedback-CR.html';
+                        var currentUrl = 'https://qupe.000webhostapp.com/gp2/faculty/feedback-CR.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var courseReport = url.href;

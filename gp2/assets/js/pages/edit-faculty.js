@@ -16,7 +16,7 @@ var showErrorMsg = function (form, type, msg) {
 function getCoursesFromDept(dept_id) {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/fetch-courses-from-dept.php',
+        url: 'https://qupe.000webhostapp.com/backend/fetch-courses-from-dept.php',
         data: {
             dept: dept_id
         }
@@ -48,7 +48,7 @@ function getCoursesFromDept(dept_id) {
 function getCoursesFromUser(user_id) {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/courses-from-userId.php',
+        url: 'https://qupe.000webhostapp.com/backend/courses-from-userId.php',
         data: {
             user: user_id
         }
@@ -89,7 +89,7 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/user-name.php'
+        url: 'https://qupe.000webhostapp.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -114,7 +114,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://gp2-qupe.com/backend/one-user.php',
+        url: 'https://qupe.000webhostapp.com/backend/one-user.php',
         data: {
             user_id: userId
         }
@@ -174,7 +174,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://gp2-qupe.com/backend/edit-user.php',
+            url: 'https://qupe.000webhostapp.com/backend/edit-user.php',
             data: values
         })
             .then(function (response) {
@@ -204,7 +204,7 @@ $(document).ready(function () {
             if (result.value) {
                 axios({
                     method: 'post',
-                    url: 'https://gp2-qupe.com/backend/delete-user.php',
+                    url: 'https://qupe.000webhostapp.com/backend/delete-user.php',
                     data: {
                         user_id: userId
                     }
