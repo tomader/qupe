@@ -3,7 +3,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'https://qupe-backend.herokuapp.com/backend/logout.php'
+            url: 'https://qupe.000webhostapp.com/backend/logout.php'
 
         })
             .then(function (response) {

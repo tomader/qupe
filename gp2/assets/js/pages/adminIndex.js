@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe-backend.herokuapp.com/backend/user-name.php'
+        url: 'https://qupe.000webhostapp.com/backend/user-name.php'
     })
         .then(function (response) {
             $.each(response.data, function (key, value) {
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'https://qupe-backend.herokuapp.com/backend/fetch-user.php'
+        url: 'https://qupe.000webhostapp.com/backend/fetch-user.php'
     })
         .then(function (response) {
             //handle success
@@ -46,7 +46,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
 
                 if (value.ROLE == 4) {
-                    var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/admin/edit_faculty.html';
+                    var currentUrl = 'https://qupe.000webhostapp.com/gp2/admin/edit_faculty.html';
                     var url = new URL(currentUrl);
                     url.searchParams.set("id", value.ID);
                     var newUrl = url.href;
@@ -56,7 +56,7 @@ $(document).ready(function () {
                         role + '</p ></div ><a href="' + newUrl + '" class="btn btn-sm btn-label-brand btn-bold">Edit</a></div>');
                 }
                 if (value.ROLE == 3) {
-                    var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/admin/edit_quality.html';
+                    var currentUrl = 'https://qupe.000webhostapp.com/gp2/admin/edit_quality.html';
                     var url = new URL(currentUrl);
                     url.searchParams.set("id", value.ID);
                     var newUrl = url.href;
@@ -66,7 +66,7 @@ $(document).ready(function () {
                         role + '</p ></div ><a href="' + newUrl + '" class="btn btn-sm btn-label-brand btn-bold">Edit</a></div >');
                 }
                 else if (value.ROLE == 2) {
-                    var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/admin/edit_quality.html';
+                    var currentUrl = 'https://qupe.000webhostapp.com/gp2/admin/edit_quality.html';
                     var url = new URL(currentUrl);
                     url.searchParams.set("id", value.ID);
                     var newUrl = url.href;
@@ -83,7 +83,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
 
                 if (value.ROLE == 4) {
-                    var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/admin/edit_faculty.html';
+                    var currentUrl = 'https://qupe.000webhostapp.com/gp2/admin/edit_faculty.html';
                     var url = new URL(currentUrl);
                     url.searchParams.set("id", value.ID);
                     var newUrl = url.href;
@@ -98,7 +98,7 @@ $(document).ready(function () {
             role = '';
             $.each(response.data, function (key, value) {
                 if (value.ROLE == 3) {
-                    var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/admin/edit_quality.html';
+                    var currentUrl = 'https://qupe.000webhostapp.com/gp2/admin/edit_quality.html';
                     var url = new URL(currentUrl);
                     url.searchParams.set("id", value.ID);
                     var newUrl = url.href;
@@ -108,7 +108,7 @@ $(document).ready(function () {
                         role + '</p ></div ><a href="' + newUrl + '" class="btn btn-sm btn-label-brand btn-bold">Edit</a></div >');
                 }
                 else if (value.ROLE == 2) {
-                    var currentUrl = 'https://qupe-backend.herokuapp.com/gp2/admin/edit_quality.html';
+                    var currentUrl = 'https://qupe.000webhostapp.com/gp2/admin/edit_quality.html';
                     var url = new URL(currentUrl);
                     url.searchParams.set("id", value.ID);
                     var newUrl = url.href;
