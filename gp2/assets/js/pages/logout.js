@@ -3,7 +3,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/logout.php'
+            url: 'https://unadaptable-odors.000webhostapp.com/backend/logout.php'
 
         })
             .then(function (response) {

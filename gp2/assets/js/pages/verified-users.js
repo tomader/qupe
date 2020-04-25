@@ -15,13 +15,13 @@ var showErrorMsg = function (form, type, msg) {
 function checkUserReports(user_id) {
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/check-user-reports.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/check-user-reports.php',
         data: {
             user_id: user_id
         }
     })
         .then(function (response) {
-            var currentUrl = 'http://phpstack-399934-1259248.cloudwaysapps.com/gp2/TheHead/one-verified-user.html';
+            var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/TheHead/one-verified-user.html';
             var url = new URL(currentUrl);
             url.searchParams.set("id", response.data.ID);
             var newUrl = url.href;
@@ -44,7 +44,7 @@ var deptId = url.searchParams.get("id");
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-faculty.php'
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch-faculty.php'
     })
         .then(function (response) {
             //handle success
@@ -52,7 +52,7 @@ $(document).ready(function () {
             $.each(response.data, function (key, value) {
                 axios({
                     method: 'post',
-                    url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-deptName-from-userId.php',
+                    url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch-deptName-from-userId.php',
                     data: {
                         user_id: value.ID
                     }
@@ -61,7 +61,7 @@ $(document).ready(function () {
                         //handle success
                         console.log(response1);
                         //checkUserReports(value.ID);
-                        var currentUrl = 'http://phpstack-399934-1259248.cloudwaysapps.com/gp2/TheHead/one-verified-user.html';
+                        var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/TheHead/one-verified-user.html';
                         var url = new URL(currentUrl);
                         url.searchParams.set("id", value.ID);
                         var newUrl = url.href;

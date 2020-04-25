@@ -97,7 +97,7 @@ var KTLoginGeneral = function () {
             console.log(values);
             axios({
                 method: 'post',
-                url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/logIn.php',
+                url: 'https://unadaptable-odors.000webhostapp.com/backend/logIn.php',
                 data: values
             })
                 .then(function (response) {

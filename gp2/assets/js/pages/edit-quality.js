@@ -28,7 +28,7 @@ function getFormData($form) {
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/user-name.php'
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/user-name.php'
     })
         .then(function (response) {
             //handle success
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/one-user.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/one-user.php',
         data: {
             user_id: userId
         }
@@ -98,7 +98,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/edit-user.php',
+            url: 'https://unadaptable-odors.000webhostapp.com/backend/edit-user.php',
             data: values
         })
             .then(function (response) {
@@ -129,7 +129,7 @@ $(document).ready(function () {
             if (result.value) {
                 axios({
                     method: 'post',
-                    url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/delete-user.php',
+                    url: 'https://unadaptable-odors.000webhostapp.com/backend/delete-user.php',
                     data: {
                         user_id: userId
                     }

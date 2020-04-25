@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/qualityAdd.php',
+            url: 'https://unadaptable-odors.000webhostapp.com/backend/qualityAdd.php',
             data: values
         })
             .then(function (response) {

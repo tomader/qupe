@@ -31,7 +31,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/fetch-courses-from-dept.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/fetch-courses-from-dept.php',
         data: {
             dept: deptId
         }
@@ -41,7 +41,7 @@ $(document).ready(function () {
             let $select = $('#courses-of-dept');
             console.log(response);
             $.each(response.data, function (key, value) {
-                var currentUrl = 'http://phpstack-399934-1259248.cloudwaysapps.com/gp2/qualityMember/one-course-quality.html';
+                var currentUrl = 'https://unadaptable-odors.000webhostapp.com/gp2/qualityMember/one-course-quality.html';
                 var url = new URL(currentUrl);
                 url.searchParams.set("id", value.ID);
                 var newUrl = url.href;
@@ -57,7 +57,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/one-dept.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/one-dept.php',
         data: {
             dept: deptId
         }

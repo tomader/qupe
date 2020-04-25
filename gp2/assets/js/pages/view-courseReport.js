@@ -26,7 +26,7 @@ function getFormData($form) {
 function getProgName(progId) {
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-progName.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/get-progName.php',
         data: {
             prog_id: progId
         }
@@ -45,7 +45,7 @@ function getProgName(progId) {
 function getDeptName(deptId) {
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/get-deptName.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/get-deptName.php',
         data: {
             dept_id: deptId
         }
@@ -69,7 +69,7 @@ var crID = url.searchParams.get("id");
 $(document).ready(function () {
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/userName-from-crID.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/userName-from-crID.php',
         data: {
             cr_id: crID
         }
@@ -90,7 +90,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/courseInfo-from-crID.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/courseInfo-from-crID.php',
         data: {
             cr_id: crID
         }
@@ -109,7 +109,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableA.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableA.php',
         data: {
             cr_id: crID
         }
@@ -130,7 +130,7 @@ $(document).ready(function () {
 
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableB1.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableB1.php',
         data: {
             cr_id: crID
         }
@@ -161,7 +161,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableB2.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableB2.php',
         data: {
             cr_id: crID
         }
@@ -188,7 +188,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableC1.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableC1.php',
         data: {
             cr_id: crID
         }
@@ -222,7 +222,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableC2.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableC2.php',
         data: {
             cr_id: crID
         }
@@ -252,7 +252,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableD.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableD.php',
         data: {
             cr_id: crID
         }
@@ -286,7 +286,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableE1.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableE1.php',
         data: {
             cr_id: crID
         }
@@ -312,7 +312,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableE2.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableE2.php',
         data: {
             cr_id: crID
         }
@@ -337,7 +337,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableF.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableF.php',
         data: {
             cr_id: crID
         }
@@ -361,7 +361,7 @@ $(document).ready(function () {
         });
     axios({
         method: 'post',
-        url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-tableG.php',
+        url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-tableG.php',
         data: {
             cr_id: crID
         }
@@ -416,7 +416,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/cr-send-feedback.php',
+            url: 'https://unadaptable-odors.000webhostapp.com/backend/cr-send-feedback.php',
             data: values
         })
             .then(function (response) {
@@ -464,7 +464,7 @@ $(document).ready(function () {
 
         axios({
             method: 'post',
-            url: 'http://phpstack-399934-1259248.cloudwaysapps.com/backend/verify-cr.php',
+            url: 'https://unadaptable-odors.000webhostapp.com/backend/verify-cr.php',
             data: {
                 cr_id: crID
             }
